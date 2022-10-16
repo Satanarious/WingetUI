@@ -2302,819 +2302,1649 @@
         "https://www.murgee.com/auto-keyboard/images/auto-keyboard.png"
       ]
     },
-      "Autodesk.DesktopApp": {
-        "icon": "",
-        "images": [
-          "https://i0.wp.com/blogs.autodesk.com/autocad/wp-content/uploads/sites/35/2020/04/DesktopApp-1_zfu9dz.png?resize=800%2C388&ssl=1",
-          "https://knowledge.autodesk.com/akn-aknsite-ckeditor-image-uploads/c3f89b07-9104-4b90-81a0-99df550dd393.PNG",
-          "https://www.mgfx.co.za/wp-content/uploads/2019/09/Autodesk-Desktop-App-1.Screenshot.jpg",
-          "",
-          ""
-        ]
-      },
-      "jbreland.autoflac": {
-        "icon": "",
-        "images": [
-          "https://www.legroom.net/files/software/autoflac_gui_thumb.png",
-          "https://www.legroom.net/files/software/autoflac_convert.png"
-        ]
-      },
-      "Lexikos.AutoHotkey": {
-        "icon": "https://raw.githubusercontent.com/Ixiko/AHK-Forum/master/images/AHK%20main%20icon.png",
-        "images": [
-          "https://i.ytimg.com/vi/n_9-QkD-zJ4/maxresdefault.jpg",
-          "https://s8.postimg.cc/je3mkkwzp/Auto_GUI_v2.0.1.png",
-          "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/a5edca32-96d7-11e6-98e0-00163ec9f5fa/4013272943/autohotkey-Untitled.png"
-        ]
-      },
-      "AutoIt.AutoIt": {
-        "icon": "https://i.imgur.com/lETjQsY.png",
-        "images": []
-      },
-      "AutomatedLab.AutomatedLab": {
-        "icon": "https://imgur.com/a/0P9TpTo.png",
-        "images": [
-          "https://i.ytimg.com/vi/lrPlRvFR5fA/sddefault.jpg"
-        ]
-      },
-      "SleuthKit.Autopsy": {
-        "icon": "https://i.imgur.com/MNqvAXk.png",
-        "images": [
-          "http://sleuthkit.org/autopsy/docs/user-docs/4.15.0/portable_case_original_version.png",
-          "https://media.geeksforgeeks.org/wp-content/uploads/20200830111540/Screenshot8.png"
-        ]
-      },
-      "Microsoft.Sysinternals.Autoruns": {
-        "icon": "",
-        "images": [
-          "https://learn.microsoft.com/en-us/sysinternals/downloads/media/autoruns/autoruns_v13.png",
-          "https://www.bleepstatic.com/download/screenshots/a/autoruns/everything-tab.jpg"
-        ]
-      },
-      "WisdomSoftware.AutoScreenRecorder": {
-        "icon": "https://i0.wp.com/filecr.com/wp-content/uploads/2019/11/AutoScreenRecorder-Pro-icon.png",
-        "images": [
-          "https://windows-cdn.softpedia.com/screenshots/AutoScreenRecorder-Pro_10.png",
-          "https://windows-cdn.softpedia.com/screenshots/AutoScreenRecorder-Pro_11.png",
-          "https://windows-cdn.softpedia.com/screenshots/AutoScreenRecorder-Pro_12.png",
-          "https://windows-cdn.softpedia.com/screenshots/AutoScreenRecorder-Pro_13.png"
-        ]
-      },
-      "Allen&Heath.AvantisDirector": {
-        "icon": "https://www.allen-heath.com/media/Avantis-Solo-In-Place.png",
-        "images": [
-          "https://www.prosoundweb.com/wp-content/uploads/2021/03/AH-Avantis-v11.jpg",
-          "https://www.allen-heath.com/media/AV-Touch768.jpg"
-        ]
-      },
-      "IsaqueS.AventurasDeQuintal": {
-        "icon": "",
-        "images": []
-      },
-      "avidemux": {
-        "icon": "https://imgur.com/a/THNrzzQ",
-        "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Avidemux_2.6.1.png",
-          "https://cdn2.portableapps.com/AvidemuxPortable.png"
-        ]
-      },
-      "AviSynth.AviSynth": {
-        "icon": "http://www.avisynth.org/images/avisynth-logo-gears-mod.png",
-        "images": [
-          "https://www.svp-team.com/w/images/3/3c/Mpchc-avsf.png",
-          "https://imag.malavida.com/mvimgbig/download-fs/avisynth-11914-1.jpg"
-        ]
-      },
-      "AviSynth.AviSynthPlus": {
-        "icon": "http://www.avisynth.org/images/avisynth-logo-gears-mod.png",
-        "images": [
-          "https://www.svp-team.com/w/images/3/3c/Mpchc-avsf.png",
-          "https://imag.malavida.com/mvimgbig/download-fs/avisynth-11914-1.jpg"
-        ]
-      },
-      "Avocode.Avocode": {
-        "icon": "https://www.macupdate.com/images/icons512/58650.png",
-        "images": [
-          "https://avocode.com/static/og/facebook/avocode-og-download.png",
-          "https://miro.medium.com/max/1400/0*wKuC9gfMG2BG_KCL.png",
-          "https://miro.medium.com/max/1400/1*PGcWow7rw0fppvtOsZGoLg.png"
-        ]
-      },
-      "Avogadro.Avogadro": {
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Avogadro.png",
-        "images": [
-          "https://a.fsdn.com/con/app/proj/avogadro/screenshots/205209.jpg",
-          "https://a.fsdn.com/con/app/proj/avogadro/screenshots/205205.jpg",
-          "https://a.fsdn.com/con/app/proj/avogadro/screenshots/205207.jpg"
-        ]
-      },
-      "OmicronLab.Avro": {
-        "icon": "https://okkhor52.com/img/designer/001.png",
-        "images": [
-          "https://www.omicronlab.com/assets/images/landing/avro_600x337.jpg",
-          "http://linux.omicronlab.com/images/screenshot.png",
-          "https://imag.malavida.com/mvimgbig/download-fs/avro-keyboard-22346-1.jpg"
-        ]
-      },
-      "OnlineMediaTechnologiesLtd.AVSDiscCreator": {
-        "icon": "https://i.imgur.com/WEqLdrd.png",
-        "images": [
-          "https://onlinehelpstaticcontents.avs4you.com/en/images/disccreator/createisoimage.png",
-          "https://onlinehelpstaticcontents.avs4you.com/en/images/disccreator/createaudiocd.png",
-          "https://imgs.avs4you.com/en/images/screenshots/big/disccreator.png",
-          "https://sc.filehippo.net/images/t_app-cover-m,f_auto/p/678a5ec0-9b25-11e6-86fe-00163ec9f5fa/3891986685/avs-disc-creator-screenshot.png"
-        ]
-      },
-      "AVS.InstallPackComplete": {
-        "icon": "https://keygensofts.com/wp-content/uploads/2021/06/AVS4YOU.jpg",
-        "images": [
-          "https://i.imgur.com/RH6wO99.jpg",
-          "https://i.imgur.com/z8oFnzY.png"
-        ]
-      },
-      "Amazon.AWSCLI": {
-        "icon": "https://discover.strongdm.com/hs-fs/hubfs/Technology%20Images/603c5ee70b9e8acb4229b654_603c218977575b8d6b27fabe_AWS_CLI.png?width=300&height=300&name=603c5ee70b9e8acb4229b654_603c218977575b8d6b27fabe_AWS_CLI.png",
-        "images": [
-          "https://i.imgur.com/WhbXwYQ.png"
-        ]
-      },
-      "Amazon.SAM-CLI": {
-        "icon": "https://i.imgur.com/JTHKvy1.png",
-        "images": [
-          "https://s33046.pcdn.co/wp-content/uploads/2020/08/aws-sam-workflow-e1597653903262.png",
-          "https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2020/12/16/poster-1024x629.png"
-        ]
-      },
-      "Amazon.AWSVPNClient": {
-        "icon": "https://img.informer.com/icons_mac/png/128/577/577519.png",
-        "images": [
-          "https://d2908q01vomqb2.cloudfront.net/5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/2020/05/12/Slide2.png",
-          "https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/images/architecture.png",
-          "https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image21.png",
-          "https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/images/client-vpn-scenario-igw.png"
-        ]
-      },
-      "AxCrypt.AxCrypt": {
-        "icon": "https://axcrypt.net/img/axcrypt_white.05643fb0.png",
-        "images": [
-          "https://i.ytimg.com/vi/jyixJ03qmkg/maxresdefault.jpg",
-          "https://i.pcmag.com/imagery/reviews/01jciGTh8bUT5wFvORiELjy-14..v1627508527.png",
-          "https://i.pcmag.com/imagery/reviews/01jciGTh8bUT5wFvORiELjy-11..v1627508527.png"
-        ]
-      },
-      "AxisCommunications.AxisCameraStation": {
-        "icon": "https://i.imgur.com/RW7KLxj.png",
-        "images": [
-          "https://www.networkwebcams.co.uk/blog/wp-content/uploads/2019/02/axis-camera-station.jpg",
-          "https://i.ytimg.com/vi/wMTtAFNp5Rg/maxresdefault.jpg",
-          "https://www.axis.com/sites/axis/files/styles/4_3_800_x_600/public/2021-10/smart_search_truck_2109_2600x1950px.png.jpg?itok=NZOjOjrr",
-          "https://i.ytimg.com/vi/8LVAZ4tTqhM/maxresdefault.jpg"
-        ]
-      },
-      "Axure.AxureRP.10": {
-        "icon": "https://i.imgur.com/6VJTDPC.png",
-        "images": [
-          "https://www.axure.com/wp-content/uploads/2021/04/og-image@2x.png",
-          "https://i.ytimg.com/vi/bFtXrsvdA1U/maxresdefault.jpg",
-          "https://uploads-ssl.webflow.com/60ac286928965092f733e140/60ac35cb7bfd6e9c8168e517_Axure%2BRP%2B10%2BOne%402x.png"
-        ]
-      },
-      "7room.Aya": {
-        "icon": "https://user-images.githubusercontent.com/2874236/75116104-fcc2ab00-5675-11ea-91af-0e8e04df8a46.png",
-        "images": [
-          "https://user-images.githubusercontent.com/2874236/75115994-0dbeec80-5675-11ea-93a1-33f4e5fb9e70.png"
-        ]
-      },
-      "AbdelrahmanBayoumi.Azkar": {
-        "icon": "https://i.imgur.com/iY6QivM.png",
-        "images": [
-          "https://user-images.githubusercontent.com/48678280/174669335-b9cdf440-4ba4-48a6-a218-addb0c749db6.png",
-          "https://user-images.githubusercontent.com/48678280/141684574-ad164c5a-ac22-4c27-8774-6847e10cde3b.jpg",
-          "https://user-images.githubusercontent.com/48678280/141684402-51d9a132-2dad-4648-ad4f-d6cf814a9c93.png"
-        ]
-      },
-      "Azul.Zulu.11.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.13.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.15.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.16.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.17.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.18.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.6.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.7.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.8.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.9.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.11.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.13.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.15.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.16.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.17.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.18.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.7.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.8.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.Zulu.9.JRE": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.ZuluFX.17.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Azul.ZuluFX.18.JDK": {
-        "icon": "https://i.imgur.com/HZVJwPC.png",
-        "images": [
-          "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
-          "https://www.azul.com/wp-content/uploads/step3.png"
-        ]
-      },
-      "Microsoft.AzureCosmosEmulator": {
-        "icon": "https://i.imgur.com/udtoNcP.png",
-        "images": [
-          "https://mountainss.files.wordpress.com/2018/02/cosmosdb-emu-1.png",
-          "https://learn.microsoft.com/en-us/azure/cosmos-db/media/local-emulator/mac-trust-certificate.png"
-        ]
-      },
-      "Microsoft.AzureDataCLI": {
-        "icon": "https://i.imgur.com/2hR51ld.png",
-        "images": [
-          "https://azurelessons.com/wp-content/uploads/2020/12/Install-Azure-CLI-On-Windows.jpg",
-          "https://s33046.pcdn.co/wp-content/uploads/2020/05/azure-cloud-shell.png"
-        ]
-      },
-      "Microsoft.AzureDataStudio": {
-        "icon": "https://i.imgur.com/rpaxRmk.png",
-        "images": [
-          "https://i.imgur.com/IVuHK5O.png",
-          "https://cloudblogs.microsoft.com/uploads/prod/sites/32/2018/09/Azure-data-studio-for-sql-server-screenshot.png",
-          "https://i.imgur.com/VidjK8M.png"
-        ]
-      },
-      "Microsoft.AzureDataStudio.Insiders": {
-        "icon": "https://i.imgur.com/rpaxRmk.png",
-        "images": [
-          "https://i.imgur.com/IVuHK5O.png",
-          "https://cloudblogs.microsoft.com/uploads/prod/sites/32/2018/09/Azure-data-studio-for-sql-server-screenshot.png",
-          "https://i.imgur.com/VidjK8M.png"
-        ]
-      },
-      "Microsoft.AzureFunctionsCoreTools": {
-        "icon": "https://raw.githubusercontent.com/Azure/azure-functions-cli/master/src/Azure.Functions.Cli/npm/assets/azure-functions-logo-color-raster.png",
-        "images": [
-          "https://learn.microsoft.com/training/achievements/develop-test-deploy-azure-functions-core-tools-social.png",
-          "https://azure.github.io/AppService/media/2017/08/cli-screenshot.png",
-          "https://i.imgur.com/EKthsZP.png"
-        ]
-      },
-      "Microsoft.azure-iot-explorer": {
-        "icon": "https://i.imgur.com/zqAMm9X.png",
-        "images": [
-          "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/login.gif",
-          "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/create_device.gif",
-          "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/device_features.gif",
-          "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/pnp_discovery.gif",
-          "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/pnp_interaction_property.gif",
-          "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/pnp_interaction_telemetry.gif"
-        ]
-      },
-      "Microsoft.AzureAztfy": {
-        "icon": "https://archive.org/download/github.com-Azure-aztfy_-_2022-04-15_03-45-05/cover.jpg",
-        "images": [
-          "https://asciinema.org/a/475516.svg"
-        ]
-      },
-      "ProaData.B2BClient": {
-        "icon": "",
-        "images": []
-      },
-      "Google.BackupAndSync": {
-        "icon": "https://i.imgur.com/OAW2RMk.png",
-        "images": [
-          "https://1.bp.blogspot.com/-kyT1WzImsDQ/YOxgOPE941I/AAAAAAAAKBw/kjvRhMgsdj4_lrhzmreFQBbABELLlv4-wCLcBGAsYHQ/s1375/drive%2Bfor%2Bdesktop.png",
-          "https://i.imgur.com/djKiC3T.jpg",
-          "https://i.imgur.com/bgvMCpb.png"
-        ]
-      },
-      "Badlion.BadlionClient": {
-        "icon": "https://i.imgur.com/vMTzw0v.png",
-        "images": [
-          "https://assets.badlion.net/site/assets/client.png",
-          "https://i.imgur.com/1UkRg5e.jpg",
-          "https://i.imgur.com/lrJUZx7.jpg"
-        ]
-      },
-      "Balena.BalenaCLI": {
-        "icon": "https://www.balena.io/docs/img/logo.svg",
-        "images": [
-          "https://i.imgur.com/y2qAdKD.png",
-          "https://i.imgur.com/lSrugml.png",
-          "https://i.imgur.com/wcfZcGB.png"
-        ]
-      },
-      "Balena.Etcher": {
-        "icon": "https://i.imgur.com/e31olQa.png",
-        "images": [
-          "https://i.imgur.com/111ORhl.png",
-          "https://www.how2shout.com/linux/wp-content/uploads/2021/11/BalenaEtcher-installation-on-Debian-11-Bullseye.png",
-          "https://i.ytimg.com/vi/K8TFa-ufE2s/maxresdefault.jpg"
-        ]
-      },
-      "ChilliCream.BananaCakePop": {
-        "icon": "https://i.imgur.com/BLAMFGT.png",
-        "images": [
-          "https://chillicream.com/static/235c2468b1b6a9b5e818516b74e55e84/e2f49/bcp-operations.png",
-          "https://chillicream.com/static/6fb492dfe4f20527624dcb562abe875a/e2f49/bcp-start-screen.png",
-          "https://chillicream.com/static/daf2e87c9c32e15cd16d34e051937d06/e2f49/bcp-endpoint-entry.png",
-          "https://chillicream.com/static/96a1180f1c43149cfdcb7b3da53284b1/e2f49/bcp-sessionsbyid-query.png",
-          "https://chillicream.com/static/5fb9d581f93b8bd6ccde495964363edf/e2f49/bcp-editor-dropdown.png",
-          "https://chillicream.com/static/13f73550b3648db5c6e8010eb3b6be42/e2f49/bcp-schema-reference-query-type.png"
-        ]
-      },
-      "BandicamCompany.Bandicam": {
-        "icon": "https://i.imgur.com/E9S91RK.png",
-        "images": [
-          "https://static.bandicam.com/img/screenshot/bandicam-start.jpg",
-          "https://static.bandicam.com/img/screenshot/bandicam-select.jpg",
-          "https://static.bandicam.com/img/screenshot/bandicam-screen-recording.jpg",
-          "https://static.bandicam.com/img/screenshot/bandicam-game-recording.jpg",
-          "https://static.bandicam.com/img/screenshot/bandicam-device-recording.jpg",
-          "https://static.bandicam.com/img/screenshot/bandicam-folder.jpg"
-        ]
-      },
-      "BandicamCompany.Bandicut": {
-        "icon": "https://i.imgur.com/u0qdAsn.png",
-        "images": [
-          "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_base.jpg",
-          "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_cutter.jpg",
-          "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_spliter.jpg",
-          "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_joiner.jpg",
-          "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_process.jpg"
-        ]
-      },
-      "Bandisoft.Bandizip": {
-        "icon": "https://i.imgur.com/qqhrrET.png",
-        "images": [
-          "https://www.bandisoft.com/bandizip/screenshots/imgs.en/08_pm.png",
-          "https://www.bandisoft.com/bandizip/screenshots/imgs.en/09_repair.png",
-          "https://www.bandisoft.com/bandizip/screenshots/imgs.en/10_pr.png",
-          "https://www.bandisoft.com/bandizip/screenshots/imgs.en/11_preview.png",
-          "https://www.bandisoft.com/bandizip/screenshots/imgs.en/12_amsi.png"
-        ]
-      },
-      "DebaucheeOpenSourceGroup.Barrier": {
-        "icon": "",
-        "images": []
-      },
-      "Cencit.BAS21": {
-        "icon": "https://bas21.no/wp-content/uploads/2018/05/bascore-100.png",
-        "images": [
-          "https://bas21.no/wp-content/uploads/2018/05/bas21ordre-1024x496.jpg"
-        ]
-      },
-      "BinaryMark.BatchDocs": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch/screens/bd/bd-1.gif",
-          "https://www.binarymark.com/assets/batch/screens/bd/bd-2.gif",
-          "https://www.binarymark.com/assets/batch/screens/bd/bd-3.gif",
-          "https://www.binarymark.com/assets/batch/screens/bd/replaceregex.png",
-          "https://www.binarymark.com/assets/batch/screens/bd/delete1.png"
-        ]
-      },
-      "BinaryMark.BatchEncodingConverter": {
-        "icon": "https://i.imgur.com/LulTz8S.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
-          "https://www.binarymark.com/img/screens/p18_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/schedule1.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/actionsequence2.png"
-        ]
-      },
-      "BinaryMark.BatchFileEncrypt": {
-        "icon": "https://i.imgur.com/bp6zJ2f.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p31_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_encrypt.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/p31_welcome.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png"
-        ]
-      },
-      "BinaryMark.BatchFileManager": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/commontasks4.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/filehelper_copy.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/rename1.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png"
-        ]
-      },
-      "BinaryMark.BatchFileRename": {
-        "icon": "https://i.imgur.com/kCHWyKz.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p25_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/rename1.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png"
-        ]
-      },
-      "BinaryMark.BatchFileReplace": {
-        "icon": "https://i.imgur.com/VJhsHSY.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p19_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/automode1.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/schedule1.png"
-        ]
-      },
-      "BinaryMark.BatchFileSplitJoin": {
-        "icon": "https://i.imgur.com/5TGCLm9.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png",
-          "https://www.binarymark.com/img/screens/p24_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/filehelper_copy.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/p24_welcome.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png"
-        ]
-      },
-      "BinaryMark.BatchFiles": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
-          "https://www.binarymark.com/img/screens/p17_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_textreplace.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_format2.png"
-        ]
-      },
-      "BinaryMark.BatchHexEditor": {
-        "icon": "https://i.imgur.com/GzvYCVM.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
-          "https://www.binarymark.com/img/screens/p21_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_binreplace.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_insertbin.png"
-        ]
-      },
-      " BinaryMark.BatchImageConverter": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p5_main.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act1.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fileformat_options.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/converter_helper.png"
-        ]
-      },
-      "BinaryMark.BatchImageEnhancer": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p4_main.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act11.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fitto_resize.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/resize_percent.jpg"
-        ]
-      },
-      "BinaryMark.BatchImageResizer": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p2_main.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act5.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fitto_resize.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/crop/scr_crop_ratio.jpg"
-        ]
-      },
-      "BinaryMark.BatchImageSplitter": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p15_main.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act5.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/v3/cbi_split4.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fitto_resize.jpg"
-        ]
-      },
-      "BinaryMark.BatchImageWatermarker": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p3_main.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act7.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/watermarks.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/watermark_text.jpg"
-        ]
-      },
-      "BinaryMark.BatchImages": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p16_main.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act1.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fitto_resize.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/resize_percent.jpg"
-        ]
-      },
-      "BinaryMark.BatchPhotoFace": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/img/screens/p14_main.png",
-          "https://www.binarymark.com/assets/batch-image-processor/v3/bi_actions_new56_1.png",
-          "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
-          "https://www.binarymark.com/assets/batch-image-processor/v3/cbi_face_helper.png",
-          "https://www.binarymark.com/assets/batch-image-processor/v3/cbi_face_search.png"
-        ]
-      },
-      "BinaryMark.BatchRegEx": {
-        "icon": "https://i.imgur.com/BbSGkkF.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
-          "https://www.binarymark.com/img/screens/p20_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_regexreplace.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_format2.png"
-        ]
-      },
-      "BinaryMark.BatchTextFileEditor": {
-        "icon": "https://i.imgur.com/1Vgpt5Q.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
-          "https://www.binarymark.com/img/screens/p30_main.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_textreplace.png",
-          "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_inserttext.png"
-        ]
-      },
-      "BinaryMark.BatchWordReplace": {
-        "icon": "https://i.imgur.com/REcnsis.png",
-        "images": [
-          "https://www.binarymark.com/assets/batch/screens/bd/bd-1.gif",
-          "https://www.binarymark.com/assets/batch/screens/bd/bd-2.gif",
-          "https://www.binarymark.com/assets/batch/screens/bd/bd-3.gif",
-          "https://www.binarymark.com/assets/batch/screens/bd/replace1.png",
-          "https://www.binarymark.com/assets/batch/screens/bd/replaceformat.png"
-        ]
-      },
-      "OsirisDevelopment.BatteryBar": {
-        "icon": "https://i.imgur.com/3swIrxK.png",
-        "images": [
-          "https://batterybarpro.com/images/splash1.png",
-          "https://batterybarpro.com/images/features.png",
-          "https://batterybarpro.com/images/features1.png"
-        ]
-      },
-      " PassMark.BatteryMon": {
-        "icon": "https://i.imgur.com/vZUN8ob.png",
-        "images": [
-          "https://www.passmark.com/source/img_posts/batmon.png",
-          "https://www.passmark.com/source/img_posts/big_batterymonscreenshot1.png",
-          "https://www.passmark.com/source/img_posts/big_batterymon.jpg"
-        ]
-      },
-      "Wesnoth.BattleForWesnoth": {
-        "icon": "https://i.imgur.com/sn1MXX5.png",
-        "images": [
-          "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-1.jpg",
-          "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-2.jpg",
-          "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-3.jpg",
-          "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-4.jpg",
-          "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-5.jpg"
-        ]
-      },
-      "SaitoGames.BattlePainters": {
-        "icon": "http://www.saitogames.com/_images/painters_logo.gif",
-        "images": [
-          "http://www.saitogames.com/_images/painters_screen01.gif",
-          "http://www.saitogames.com/_images/painters_screen02.gif",
-          "http://www.saitogames.com/_images/painters_screen03.gif",
-          "http://www.saitogames.com/_images/painters_screen04.gif"
-        ]
-      },
-      "Baulk.Baulk": {
-        "icon": "https://i.imgur.com/3k2phcY.png",
-        "images": [
-          "https://github.com/baulk/baulk/raw/master/docs/images/getstarted.png",
-          "https://github.com/baulk/baulk/raw/master/docs/images/baulksearch.png",
-          "https://github.com/baulk/baulk/raw/master/docs/images/onterminal.png",
-          "https://github.com/baulk/baulk/raw/master/docs/images/barrels.png"
-        ]
-      },
-      "DygmaLabs.Bazecor": {
-        "icon": "https://i.imgur.com/sblG8Td.png",
-        "images": [
-          "https://github.com/Dygmalab/Bazecor/raw/development/data/screenshot.png",
-          "https://i.imgur.com/glj06fJ.png"
-        ]
-      },
-      "BBC.iPlayer": {
-        "icon": "https://i.imgur.com/gfpg8io.png",
-        "images": [
-          "https://iplayer-web.files.bbci.co.uk/iplayer-web-app-features/1.0.0-667/install/screenshot.png",
-          "https://i.imgur.com/nTis8Uz.png",
-          "https://broadbandtvnews-broadbandtvnews.netdna-ssl.com/wp-content/uploads/2010/09/bbc-iplayer-new-Sept-20101.jpg",
-          "https://www.ispreview.co.uk/ispnews/data/upimages/subfolders/2009%20Misc/iplayer.jpg"
-        ]
-      },
-      "endcloud.BBHouse": {
-        "icon": "https://i.imgur.com/c1Ne2d2.png",
-        "images": [
-          "https://github.com/endcloud/bbhouse-tauri/raw/master/doc/1660423610.png",
-          "https://github.com/endcloud/bbhouse-tauri/raw/master/doc/Xnip2022-08-14_18-37-21.jpg"
-        ]
-      },
-      "Klocman.BulkCrapUninstaller": {
-        "icon": "https://i.imgur.com/tVYTWHz.png",
-        "images": [
-          "https://www.bcuninstaller.com/assets/1.png",
-          "https://www.bcuninstaller.com/assets/3.png",
-          "https://www.bcuninstaller.com/assets/4.png",
-          "https://www.bcuninstaller.com/assets/2.png"
-        ]
-      },
-      "bdash-app.bdash": {
-        "icon": "",
-        "images": [
-          "https://raw.githubusercontent.com/bdash-app/bdash/1.2.2/assets/capture1.png",
-          "https://raw.githubusercontent.com/bdash-app/bdash/1.2.2/assets/capture2.png"
-        ]
-      },
-      "PaulFrazee.BeakerBrowser": {
-        "icon": "https://github.com/beakerbrowser/beaker/raw/master/build/icons/256x256.png",
-        "images": [
-          "https://itsfoss.com/wp-content/uploads/2020/04/beaker-browser.jpg",
-          "https://itsfoss.com/wp-content/uploads/2020/04/beaker-bowser-setting.jpg",
-          "https://itsfoss.com/wp-content/uploads/2020/04/beaker-bowser-seedding.jpg",
-          "https://itsfoss.com/wp-content/uploads/2020/04/beaker-browser-menu.jpg",
-          "https://itsfoss.com/wp-content/uploads/2020/04/beaker-browser-website-template.jpg"
-        ]
-      },
-      "the-sz.Bear": {
-        "icon": "https://the-sz.com/products/bear/bear_icon.png",
-        "images": [
-          "https://the-sz.com/products/bear/delta_small.jpg",
-          "https://the-sz.com/products/bear/details_small.jpg",
-          "https://the-sz.com/products/bear/logging_small.jpg",
-          "https://the-sz.com/products/bear/bear7.jpg",
-          "https://the-sz.com/products/bear/bear.jpg"
-        ]
-      },
-      "NathanielJohns.Beatdrop": {
-        "icon": "",
-        "images": []
-      },
-      "Elastic.Winlogbeat": {
-        "icon": "https://i.imgur.com/gaZ7moS.png",
-        "images": [
-          "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6c4cbb4f3ca4258c/5ca67d82154fe31d3366f9f6/logging-winlogbeat-windows.jpg",
-          "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf5db944ddd48764f/5bbcae7b0e6edaf014d23be8/winlogbeat-account-usage-dashboard.jpg",
-          "https://www.tutorials24x7.com/uploads/2020-01-04/files/12-tutorials24x7-winlogbeat-kibana-dashboard.png"
-        ]
-      },
-      "the-sz.Bedford": {
-        "icon": "https://the-sz.com/products/bedford/bedford_icon.png",
-        "images": [
-          "https://the-sz.com/products/bedford/bedford.png"
-        ]
-      },
-      "BeeBEEP.BeeBEEP": {
-        "icon": "https://i.imgur.com/lZXq4xt.png",
-        "images": [
-          "https://www.beebeep.net/images/shots/beebeep_in_action_macosx.png",
-          "https://www.beebeep.net/images/shots/beebeep_in_action_windows.png",
-          "https://www.beebeep.net/images/shots/beebeep_in_action_darkstyle.png"
-        ]
-      },
-      "Beeftext.Beeftext": {
-        "icon": "https://beeftext.org/images/BeeftextLogo75.png",
-        "images": [
-          "https://beeftext.org/images/Demo01.png",
-          "https://beeftext.org/images/Demo02.gif"
-        ]
-      },
-      "beekeeper-studio.beekeeper-studio": {
-        "icon": "https://www.beekeeperstudio.io/assets/img/logos/bk-logo-yellow-icon-3761c77d1abf26d329e20e3b5cf05cabfa00fb9225054be62707b0693991d380.svg",
-        "images": [
-          "https://www.beekeeperstudio.io/assets/img/blog/33/solarized-725bccb89ac412416ad89bad5424238aa85e57e0562f97ab430535021b94ccad.png",
-          "https://www.beekeeperstudio.io/assets/img/features/magics-6c2eb6f3466201c7ecb9a43e85caae7ce5a202859b88b7a056010899bbd3f64e.png"
-        ]
-      }
+    "Autodesk.DesktopApp": {
+      "icon": "",
+      "images": [
+        "https://i0.wp.com/blogs.autodesk.com/autocad/wp-content/uploads/sites/35/2020/04/DesktopApp-1_zfu9dz.png?resize=800%2C388&ssl=1",
+        "https://knowledge.autodesk.com/akn-aknsite-ckeditor-image-uploads/c3f89b07-9104-4b90-81a0-99df550dd393.PNG",
+        "https://www.mgfx.co.za/wp-content/uploads/2019/09/Autodesk-Desktop-App-1.Screenshot.jpg",
+        "",
+        ""
+      ]
+    },
+    "jbreland.autoflac": {
+      "icon": "",
+      "images": [
+        "https://www.legroom.net/files/software/autoflac_gui_thumb.png",
+        "https://www.legroom.net/files/software/autoflac_convert.png"
+      ]
+    },
+    "Lexikos.AutoHotkey": {
+      "icon": "https://raw.githubusercontent.com/Ixiko/AHK-Forum/master/images/AHK%20main%20icon.png",
+      "images": [
+        "https://i.ytimg.com/vi/n_9-QkD-zJ4/maxresdefault.jpg",
+        "https://s8.postimg.cc/je3mkkwzp/Auto_GUI_v2.0.1.png",
+        "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/a5edca32-96d7-11e6-98e0-00163ec9f5fa/4013272943/autohotkey-Untitled.png"
+      ]
+    },
+    "AutoIt.AutoIt": {
+      "icon": "https://i.imgur.com/lETjQsY.png",
+      "images": []
+    },
+    "AutomatedLab.AutomatedLab": {
+      "icon": "https://imgur.com/a/0P9TpTo.png",
+      "images": [
+        "https://i.ytimg.com/vi/lrPlRvFR5fA/sddefault.jpg"
+      ]
+    },
+    "SleuthKit.Autopsy": {
+      "icon": "https://i.imgur.com/MNqvAXk.png",
+      "images": [
+        "http://sleuthkit.org/autopsy/docs/user-docs/4.15.0/portable_case_original_version.png",
+        "https://media.geeksforgeeks.org/wp-content/uploads/20200830111540/Screenshot8.png"
+      ]
+    },
+    "Microsoft.Sysinternals.Autoruns": {
+      "icon": "",
+      "images": [
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/media/autoruns/autoruns_v13.png",
+        "https://www.bleepstatic.com/download/screenshots/a/autoruns/everything-tab.jpg"
+      ]
+    },
+    "WisdomSoftware.AutoScreenRecorder": {
+      "icon": "https://i0.wp.com/filecr.com/wp-content/uploads/2019/11/AutoScreenRecorder-Pro-icon.png",
+      "images": [
+        "https://windows-cdn.softpedia.com/screenshots/AutoScreenRecorder-Pro_10.png",
+        "https://windows-cdn.softpedia.com/screenshots/AutoScreenRecorder-Pro_11.png",
+        "https://windows-cdn.softpedia.com/screenshots/AutoScreenRecorder-Pro_12.png",
+        "https://windows-cdn.softpedia.com/screenshots/AutoScreenRecorder-Pro_13.png"
+      ]
+    },
+    "Allen&Heath.AvantisDirector": {
+      "icon": "https://www.allen-heath.com/media/Avantis-Solo-In-Place.png",
+      "images": [
+        "https://www.prosoundweb.com/wp-content/uploads/2021/03/AH-Avantis-v11.jpg",
+        "https://www.allen-heath.com/media/AV-Touch768.jpg"
+      ]
+    },
+    "IsaqueS.AventurasDeQuintal": {
+      "icon": "",
+      "images": []
+    },
+    "avidemux": {
+      "icon": "https://imgur.com/a/THNrzzQ",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/bd/Avidemux_2.6.1.png",
+        "https://cdn2.portableapps.com/AvidemuxPortable.png"
+      ]
+    },
+    "AviSynth.AviSynth": {
+      "icon": "http://www.avisynth.org/images/avisynth-logo-gears-mod.png",
+      "images": [
+        "https://www.svp-team.com/w/images/3/3c/Mpchc-avsf.png",
+        "https://imag.malavida.com/mvimgbig/download-fs/avisynth-11914-1.jpg"
+      ]
+    },
+    "AviSynth.AviSynthPlus": {
+      "icon": "http://www.avisynth.org/images/avisynth-logo-gears-mod.png",
+      "images": [
+        "https://www.svp-team.com/w/images/3/3c/Mpchc-avsf.png",
+        "https://imag.malavida.com/mvimgbig/download-fs/avisynth-11914-1.jpg"
+      ]
+    },
+    "Avocode.Avocode": {
+      "icon": "https://www.macupdate.com/images/icons512/58650.png",
+      "images": [
+        "https://avocode.com/static/og/facebook/avocode-og-download.png",
+        "https://miro.medium.com/max/1400/0*wKuC9gfMG2BG_KCL.png",
+        "https://miro.medium.com/max/1400/1*PGcWow7rw0fppvtOsZGoLg.png"
+      ]
+    },
+    "Avogadro.Avogadro": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Avogadro.png",
+      "images": [
+        "https://a.fsdn.com/con/app/proj/avogadro/screenshots/205209.jpg",
+        "https://a.fsdn.com/con/app/proj/avogadro/screenshots/205205.jpg",
+        "https://a.fsdn.com/con/app/proj/avogadro/screenshots/205207.jpg"
+      ]
+    },
+    "OmicronLab.Avro": {
+      "icon": "https://okkhor52.com/img/designer/001.png",
+      "images": [
+        "https://www.omicronlab.com/assets/images/landing/avro_600x337.jpg",
+        "http://linux.omicronlab.com/images/screenshot.png",
+        "https://imag.malavida.com/mvimgbig/download-fs/avro-keyboard-22346-1.jpg"
+      ]
+    },
+    "OnlineMediaTechnologiesLtd.AVSDiscCreator": {
+      "icon": "https://i.imgur.com/WEqLdrd.png",
+      "images": [
+        "https://onlinehelpstaticcontents.avs4you.com/en/images/disccreator/createisoimage.png",
+        "https://onlinehelpstaticcontents.avs4you.com/en/images/disccreator/createaudiocd.png",
+        "https://imgs.avs4you.com/en/images/screenshots/big/disccreator.png",
+        "https://sc.filehippo.net/images/t_app-cover-m,f_auto/p/678a5ec0-9b25-11e6-86fe-00163ec9f5fa/3891986685/avs-disc-creator-screenshot.png"
+      ]
+    },
+    "AVS.InstallPackComplete": {
+      "icon": "https://keygensofts.com/wp-content/uploads/2021/06/AVS4YOU.jpg",
+      "images": [
+        "https://i.imgur.com/RH6wO99.jpg",
+        "https://i.imgur.com/z8oFnzY.png"
+      ]
+    },
+    "Amazon.AWSCLI": {
+      "icon": "https://discover.strongdm.com/hs-fs/hubfs/Technology%20Images/603c5ee70b9e8acb4229b654_603c218977575b8d6b27fabe_AWS_CLI.png?width=300&height=300&name=603c5ee70b9e8acb4229b654_603c218977575b8d6b27fabe_AWS_CLI.png",
+      "images": [
+        "https://i.imgur.com/WhbXwYQ.png"
+      ]
+    },
+    "Amazon.SAM-CLI": {
+      "icon": "https://i.imgur.com/JTHKvy1.png",
+      "images": [
+        "https://s33046.pcdn.co/wp-content/uploads/2020/08/aws-sam-workflow-e1597653903262.png",
+        "https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2020/12/16/poster-1024x629.png"
+      ]
+    },
+    "Amazon.AWSVPNClient": {
+      "icon": "https://img.informer.com/icons_mac/png/128/577/577519.png",
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/2020/05/12/Slide2.png",
+        "https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/images/architecture.png",
+        "https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/images/image21.png",
+        "https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/images/client-vpn-scenario-igw.png"
+      ]
+    },
+    "AxCrypt.AxCrypt": {
+      "icon": "https://axcrypt.net/img/axcrypt_white.05643fb0.png",
+      "images": [
+        "https://i.ytimg.com/vi/jyixJ03qmkg/maxresdefault.jpg",
+        "https://i.pcmag.com/imagery/reviews/01jciGTh8bUT5wFvORiELjy-14..v1627508527.png",
+        "https://i.pcmag.com/imagery/reviews/01jciGTh8bUT5wFvORiELjy-11..v1627508527.png"
+      ]
+    },
+    "AxisCommunications.AxisCameraStation": {
+      "icon": "https://i.imgur.com/RW7KLxj.png",
+      "images": [
+        "https://www.networkwebcams.co.uk/blog/wp-content/uploads/2019/02/axis-camera-station.jpg",
+        "https://i.ytimg.com/vi/wMTtAFNp5Rg/maxresdefault.jpg",
+        "https://www.axis.com/sites/axis/files/styles/4_3_800_x_600/public/2021-10/smart_search_truck_2109_2600x1950px.png.jpg?itok=NZOjOjrr",
+        "https://i.ytimg.com/vi/8LVAZ4tTqhM/maxresdefault.jpg"
+      ]
+    },
+    "Axure.AxureRP.10": {
+      "icon": "https://i.imgur.com/6VJTDPC.png",
+      "images": [
+        "https://www.axure.com/wp-content/uploads/2021/04/og-image@2x.png",
+        "https://i.ytimg.com/vi/bFtXrsvdA1U/maxresdefault.jpg",
+        "https://uploads-ssl.webflow.com/60ac286928965092f733e140/60ac35cb7bfd6e9c8168e517_Axure%2BRP%2B10%2BOne%402x.png"
+      ]
+    },
+    "7room.Aya": {
+      "icon": "https://user-images.githubusercontent.com/2874236/75116104-fcc2ab00-5675-11ea-91af-0e8e04df8a46.png",
+      "images": [
+        "https://user-images.githubusercontent.com/2874236/75115994-0dbeec80-5675-11ea-93a1-33f4e5fb9e70.png"
+      ]
+    },
+    "AbdelrahmanBayoumi.Azkar": {
+      "icon": "https://i.imgur.com/iY6QivM.png",
+      "images": [
+        "https://user-images.githubusercontent.com/48678280/174669335-b9cdf440-4ba4-48a6-a218-addb0c749db6.png",
+        "https://user-images.githubusercontent.com/48678280/141684574-ad164c5a-ac22-4c27-8774-6847e10cde3b.jpg",
+        "https://user-images.githubusercontent.com/48678280/141684402-51d9a132-2dad-4648-ad4f-d6cf814a9c93.png"
+      ]
+    },
+    "Azul.Zulu.11.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.13.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.15.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.16.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.17.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.18.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.6.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.7.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.8.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.9.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.11.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.13.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.15.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.16.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.17.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.18.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.7.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.8.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.Zulu.9.JRE": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.ZuluFX.17.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Azul.ZuluFX.18.JDK": {
+      "icon": "https://i.imgur.com/HZVJwPC.png",
+      "images": [
+        "https://www.azul.com/wp-content/uploads/Java_Setup_macOS_1-1.jpeg",
+        "https://www.azul.com/wp-content/uploads/step3.png"
+      ]
+    },
+    "Microsoft.AzureCosmosEmulator": {
+      "icon": "https://i.imgur.com/udtoNcP.png",
+      "images": [
+        "https://mountainss.files.wordpress.com/2018/02/cosmosdb-emu-1.png",
+        "https://learn.microsoft.com/en-us/azure/cosmos-db/media/local-emulator/mac-trust-certificate.png"
+      ]
+    },
+    "Microsoft.AzureDataCLI": {
+      "icon": "https://i.imgur.com/2hR51ld.png",
+      "images": [
+        "https://azurelessons.com/wp-content/uploads/2020/12/Install-Azure-CLI-On-Windows.jpg",
+        "https://s33046.pcdn.co/wp-content/uploads/2020/05/azure-cloud-shell.png"
+      ]
+    },
+    "Microsoft.AzureDataStudio": {
+      "icon": "https://i.imgur.com/rpaxRmk.png",
+      "images": [
+        "https://i.imgur.com/IVuHK5O.png",
+        "https://cloudblogs.microsoft.com/uploads/prod/sites/32/2018/09/Azure-data-studio-for-sql-server-screenshot.png",
+        "https://i.imgur.com/VidjK8M.png"
+      ]
+    },
+    "Microsoft.AzureDataStudio.Insiders": {
+      "icon": "https://i.imgur.com/rpaxRmk.png",
+      "images": [
+        "https://i.imgur.com/IVuHK5O.png",
+        "https://cloudblogs.microsoft.com/uploads/prod/sites/32/2018/09/Azure-data-studio-for-sql-server-screenshot.png",
+        "https://i.imgur.com/VidjK8M.png"
+      ]
+    },
+    "Microsoft.AzureFunctionsCoreTools": {
+      "icon": "https://raw.githubusercontent.com/Azure/azure-functions-cli/master/src/Azure.Functions.Cli/npm/assets/azure-functions-logo-color-raster.png",
+      "images": [
+        "https://learn.microsoft.com/training/achievements/develop-test-deploy-azure-functions-core-tools-social.png",
+        "https://azure.github.io/AppService/media/2017/08/cli-screenshot.png",
+        "https://i.imgur.com/EKthsZP.png"
+      ]
+    },
+    "Microsoft.azure-iot-explorer": {
+      "icon": "https://i.imgur.com/zqAMm9X.png",
+      "images": [
+        "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/login.gif",
+        "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/create_device.gif",
+        "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/device_features.gif",
+        "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/pnp_discovery.gif",
+        "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/pnp_interaction_property.gif",
+        "https://github.com/Azure/azure-iot-explorer/raw/main/doc/screenRecords/pnp_interaction_telemetry.gif"
+      ]
+    },
+    "Microsoft.AzureAztfy": {
+      "icon": "https://archive.org/download/github.com-Azure-aztfy_-_2022-04-15_03-45-05/cover.jpg",
+      "images": [
+        "https://asciinema.org/a/475516.svg"
+      ]
+    },
+    "ProaData.B2BClient": {
+      "icon": "",
+      "images": []
+    },
+    "Google.BackupAndSync": {
+      "icon": "https://i.imgur.com/OAW2RMk.png",
+      "images": [
+        "https://1.bp.blogspot.com/-kyT1WzImsDQ/YOxgOPE941I/AAAAAAAAKBw/kjvRhMgsdj4_lrhzmreFQBbABELLlv4-wCLcBGAsYHQ/s1375/drive%2Bfor%2Bdesktop.png",
+        "https://i.imgur.com/djKiC3T.jpg",
+        "https://i.imgur.com/bgvMCpb.png"
+      ]
+    },
+    "Badlion.BadlionClient": {
+      "icon": "https://i.imgur.com/vMTzw0v.png",
+      "images": [
+        "https://assets.badlion.net/site/assets/client.png",
+        "https://i.imgur.com/1UkRg5e.jpg",
+        "https://i.imgur.com/lrJUZx7.jpg"
+      ]
+    },
+    "Balena.BalenaCLI": {
+      "icon": "https://www.balena.io/docs/img/logo.svg",
+      "images": [
+        "https://i.imgur.com/y2qAdKD.png",
+        "https://i.imgur.com/lSrugml.png",
+        "https://i.imgur.com/wcfZcGB.png"
+      ]
+    },
+    "Balena.Etcher": {
+      "icon": "https://i.imgur.com/e31olQa.png",
+      "images": [
+        "https://i.imgur.com/111ORhl.png",
+        "https://www.how2shout.com/linux/wp-content/uploads/2021/11/BalenaEtcher-installation-on-Debian-11-Bullseye.png",
+        "https://i.ytimg.com/vi/K8TFa-ufE2s/maxresdefault.jpg"
+      ]
+    },
+    "ChilliCream.BananaCakePop": {
+      "icon": "https://i.imgur.com/BLAMFGT.png",
+      "images": [
+        "https://chillicream.com/static/235c2468b1b6a9b5e818516b74e55e84/e2f49/bcp-operations.png",
+        "https://chillicream.com/static/6fb492dfe4f20527624dcb562abe875a/e2f49/bcp-start-screen.png",
+        "https://chillicream.com/static/daf2e87c9c32e15cd16d34e051937d06/e2f49/bcp-endpoint-entry.png",
+        "https://chillicream.com/static/96a1180f1c43149cfdcb7b3da53284b1/e2f49/bcp-sessionsbyid-query.png",
+        "https://chillicream.com/static/5fb9d581f93b8bd6ccde495964363edf/e2f49/bcp-editor-dropdown.png",
+        "https://chillicream.com/static/13f73550b3648db5c6e8010eb3b6be42/e2f49/bcp-schema-reference-query-type.png"
+      ]
+    },
+    "BandicamCompany.Bandicam": {
+      "icon": "https://i.imgur.com/E9S91RK.png",
+      "images": [
+        "https://static.bandicam.com/img/screenshot/bandicam-start.jpg",
+        "https://static.bandicam.com/img/screenshot/bandicam-select.jpg",
+        "https://static.bandicam.com/img/screenshot/bandicam-screen-recording.jpg",
+        "https://static.bandicam.com/img/screenshot/bandicam-game-recording.jpg",
+        "https://static.bandicam.com/img/screenshot/bandicam-device-recording.jpg",
+        "https://static.bandicam.com/img/screenshot/bandicam-folder.jpg"
+      ]
+    },
+    "BandicamCompany.Bandicut": {
+      "icon": "https://i.imgur.com/u0qdAsn.png",
+      "images": [
+        "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_base.jpg",
+        "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_cutter.jpg",
+        "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_spliter.jpg",
+        "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_joiner.jpg",
+        "https://static.bandicam.com/bandicut-video-cutter/screenshot/3_bandicut_screenshot_process.jpg"
+      ]
+    },
+    "Bandisoft.Bandizip": {
+      "icon": "https://i.imgur.com/qqhrrET.png",
+      "images": [
+        "https://www.bandisoft.com/bandizip/screenshots/imgs.en/08_pm.png",
+        "https://www.bandisoft.com/bandizip/screenshots/imgs.en/09_repair.png",
+        "https://www.bandisoft.com/bandizip/screenshots/imgs.en/10_pr.png",
+        "https://www.bandisoft.com/bandizip/screenshots/imgs.en/11_preview.png",
+        "https://www.bandisoft.com/bandizip/screenshots/imgs.en/12_amsi.png"
+      ]
+    },
+    "DebaucheeOpenSourceGroup.Barrier": {
+      "icon": "",
+      "images": []
+    },
+    "Cencit.BAS21": {
+      "icon": "https://bas21.no/wp-content/uploads/2018/05/bascore-100.png",
+      "images": [
+        "https://bas21.no/wp-content/uploads/2018/05/bas21ordre-1024x496.jpg"
+      ]
+    },
+    "BinaryMark.BatchDocs": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch/screens/bd/bd-1.gif",
+        "https://www.binarymark.com/assets/batch/screens/bd/bd-2.gif",
+        "https://www.binarymark.com/assets/batch/screens/bd/bd-3.gif",
+        "https://www.binarymark.com/assets/batch/screens/bd/replaceregex.png",
+        "https://www.binarymark.com/assets/batch/screens/bd/delete1.png"
+      ]
+    },
+    "BinaryMark.BatchEncodingConverter": {
+      "icon": "https://i.imgur.com/LulTz8S.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
+        "https://www.binarymark.com/img/screens/p18_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/schedule1.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/actionsequence2.png"
+      ]
+    },
+    "BinaryMark.BatchFileEncrypt": {
+      "icon": "https://i.imgur.com/bp6zJ2f.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p31_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_encrypt.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/p31_welcome.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png"
+      ]
+    },
+    "BinaryMark.BatchFileManager": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/commontasks4.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/filehelper_copy.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/rename1.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png"
+      ]
+    },
+    "BinaryMark.BatchFileRename": {
+      "icon": "https://i.imgur.com/kCHWyKz.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p25_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/rename1.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png"
+      ]
+    },
+    "BinaryMark.BatchFileReplace": {
+      "icon": "https://i.imgur.com/VJhsHSY.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p19_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/automode1.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/schedule1.png"
+      ]
+    },
+    "BinaryMark.BatchFileSplitJoin": {
+      "icon": "https://i.imgur.com/5TGCLm9.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png",
+        "https://www.binarymark.com/img/screens/p24_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/filehelper_copy.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/p24_welcome.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualmode.png"
+      ]
+    },
+    "BinaryMark.BatchFiles": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
+        "https://www.binarymark.com/img/screens/p17_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_textreplace.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_format2.png"
+      ]
+    },
+    "BinaryMark.BatchHexEditor": {
+      "icon": "https://i.imgur.com/GzvYCVM.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
+        "https://www.binarymark.com/img/screens/p21_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_binreplace.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_insertbin.png"
+      ]
+    },
+    " BinaryMark.BatchImageConverter": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p5_main.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act1.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fileformat_options.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/converter_helper.png"
+      ]
+    },
+    "BinaryMark.BatchImageEnhancer": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p4_main.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act11.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fitto_resize.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/resize_percent.jpg"
+      ]
+    },
+    "BinaryMark.BatchImageResizer": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p2_main.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act5.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fitto_resize.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/crop/scr_crop_ratio.jpg"
+      ]
+    },
+    "BinaryMark.BatchImageSplitter": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p15_main.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act5.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/v3/cbi_split4.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fitto_resize.jpg"
+      ]
+    },
+    "BinaryMark.BatchImageWatermarker": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p3_main.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act7.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/watermarks.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/watermark_text.jpg"
+      ]
+    },
+    "BinaryMark.BatchImages": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p16_main.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/act1.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/fitto_resize.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/resize_percent.jpg"
+      ]
+    },
+    "BinaryMark.BatchPhotoFace": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/img/screens/p14_main.png",
+        "https://www.binarymark.com/assets/batch-image-processor/v3/bi_actions_new56_1.png",
+        "https://www.binarymark.com/assets/batch-image-processor/screenshots/tour/scr_manualmode2.jpg",
+        "https://www.binarymark.com/assets/batch-image-processor/v3/cbi_face_helper.png",
+        "https://www.binarymark.com/assets/batch-image-processor/v3/cbi_face_search.png"
+      ]
+    },
+    "BinaryMark.BatchRegEx": {
+      "icon": "https://i.imgur.com/BbSGkkF.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
+        "https://www.binarymark.com/img/screens/p20_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_regexreplace.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_format2.png"
+      ]
+    },
+    "BinaryMark.BatchTextFileEditor": {
+      "icon": "https://i.imgur.com/1Vgpt5Q.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/findfiles1.png",
+        "https://www.binarymark.com/img/screens/p30_main.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/v3/manualproc.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_textreplace.png",
+        "https://www.binarymark.com/assets/batch-files-processor/screenshots/actions/act_inserttext.png"
+      ]
+    },
+    "BinaryMark.BatchWordReplace": {
+      "icon": "https://i.imgur.com/REcnsis.png",
+      "images": [
+        "https://www.binarymark.com/assets/batch/screens/bd/bd-1.gif",
+        "https://www.binarymark.com/assets/batch/screens/bd/bd-2.gif",
+        "https://www.binarymark.com/assets/batch/screens/bd/bd-3.gif",
+        "https://www.binarymark.com/assets/batch/screens/bd/replace1.png",
+        "https://www.binarymark.com/assets/batch/screens/bd/replaceformat.png"
+      ]
+    },
+    "OsirisDevelopment.BatteryBar": {
+      "icon": "https://i.imgur.com/3swIrxK.png",
+      "images": [
+        "https://batterybarpro.com/images/splash1.png",
+        "https://batterybarpro.com/images/features.png",
+        "https://batterybarpro.com/images/features1.png"
+      ]
+    },
+    " PassMark.BatteryMon": {
+      "icon": "https://i.imgur.com/vZUN8ob.png",
+      "images": [
+        "https://www.passmark.com/source/img_posts/batmon.png",
+        "https://www.passmark.com/source/img_posts/big_batterymonscreenshot1.png",
+        "https://www.passmark.com/source/img_posts/big_batterymon.jpg"
+      ]
+    },
+    "Wesnoth.BattleForWesnoth": {
+      "icon": "https://i.imgur.com/sn1MXX5.png",
+      "images": [
+        "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-1.jpg",
+        "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-2.jpg",
+        "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-3.jpg",
+        "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-4.jpg",
+        "https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-5.jpg"
+      ]
+    },
+    "SaitoGames.BattlePainters": {
+      "icon": "http://www.saitogames.com/_images/painters_logo.gif",
+      "images": [
+        "http://www.saitogames.com/_images/painters_screen01.gif",
+        "http://www.saitogames.com/_images/painters_screen02.gif",
+        "http://www.saitogames.com/_images/painters_screen03.gif",
+        "http://www.saitogames.com/_images/painters_screen04.gif"
+      ]
+    },
+    "Baulk.Baulk": {
+      "icon": "https://i.imgur.com/3k2phcY.png",
+      "images": [
+        "https://github.com/baulk/baulk/raw/master/docs/images/getstarted.png",
+        "https://github.com/baulk/baulk/raw/master/docs/images/baulksearch.png",
+        "https://github.com/baulk/baulk/raw/master/docs/images/onterminal.png",
+        "https://github.com/baulk/baulk/raw/master/docs/images/barrels.png"
+      ]
+    },
+    "DygmaLabs.Bazecor": {
+      "icon": "https://i.imgur.com/sblG8Td.png",
+      "images": [
+        "https://github.com/Dygmalab/Bazecor/raw/development/data/screenshot.png",
+        "https://i.imgur.com/glj06fJ.png"
+      ]
+    },
+    "BBC.iPlayer": {
+      "icon": "https://i.imgur.com/gfpg8io.png",
+      "images": [
+        "https://iplayer-web.files.bbci.co.uk/iplayer-web-app-features/1.0.0-667/install/screenshot.png",
+        "https://i.imgur.com/nTis8Uz.png",
+        "https://broadbandtvnews-broadbandtvnews.netdna-ssl.com/wp-content/uploads/2010/09/bbc-iplayer-new-Sept-20101.jpg",
+        "https://www.ispreview.co.uk/ispnews/data/upimages/subfolders/2009%20Misc/iplayer.jpg"
+      ]
+    },
+    "endcloud.BBHouse": {
+      "icon": "https://i.imgur.com/c1Ne2d2.png",
+      "images": [
+        "https://github.com/endcloud/bbhouse-tauri/raw/master/doc/1660423610.png",
+        "https://github.com/endcloud/bbhouse-tauri/raw/master/doc/Xnip2022-08-14_18-37-21.jpg"
+      ]
+    },
+    "Klocman.BulkCrapUninstaller": {
+      "icon": "https://i.imgur.com/tVYTWHz.png",
+      "images": [
+        "https://www.bcuninstaller.com/assets/1.png",
+        "https://www.bcuninstaller.com/assets/3.png",
+        "https://www.bcuninstaller.com/assets/4.png",
+        "https://www.bcuninstaller.com/assets/2.png"
+      ]
+    },
+    "bdash-app.bdash": {
+      "icon": "",
+      "images": [
+        "https://raw.githubusercontent.com/bdash-app/bdash/1.2.2/assets/capture1.png",
+        "https://raw.githubusercontent.com/bdash-app/bdash/1.2.2/assets/capture2.png"
+      ]
+    },
+    "PaulFrazee.BeakerBrowser": {
+      "icon": "https://github.com/beakerbrowser/beaker/raw/master/build/icons/256x256.png",
+      "images": [
+        "https://itsfoss.com/wp-content/uploads/2020/04/beaker-browser.jpg",
+        "https://itsfoss.com/wp-content/uploads/2020/04/beaker-bowser-setting.jpg",
+        "https://itsfoss.com/wp-content/uploads/2020/04/beaker-bowser-seedding.jpg",
+        "https://itsfoss.com/wp-content/uploads/2020/04/beaker-browser-menu.jpg",
+        "https://itsfoss.com/wp-content/uploads/2020/04/beaker-browser-website-template.jpg"
+      ]
+    },
+    "the-sz.Bear": {
+      "icon": "https://the-sz.com/products/bear/bear_icon.png",
+      "images": [
+        "https://the-sz.com/products/bear/delta_small.jpg",
+        "https://the-sz.com/products/bear/details_small.jpg",
+        "https://the-sz.com/products/bear/logging_small.jpg",
+        "https://the-sz.com/products/bear/bear7.jpg",
+        "https://the-sz.com/products/bear/bear.jpg"
+      ]
+    },
+    "NathanielJohns.Beatdrop": {
+      "icon": "",
+      "images": []
+    },
+    "Elastic.Winlogbeat": {
+      "icon": "https://i.imgur.com/gaZ7moS.png",
+      "images": [
+        "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6c4cbb4f3ca4258c/5ca67d82154fe31d3366f9f6/logging-winlogbeat-windows.jpg",
+        "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf5db944ddd48764f/5bbcae7b0e6edaf014d23be8/winlogbeat-account-usage-dashboard.jpg",
+        "https://www.tutorials24x7.com/uploads/2020-01-04/files/12-tutorials24x7-winlogbeat-kibana-dashboard.png"
+      ]
+    },
+    "the-sz.Bedford": {
+      "icon": "https://the-sz.com/products/bedford/bedford_icon.png",
+      "images": [
+        "https://the-sz.com/products/bedford/bedford.png"
+      ]
+    },
+    "BeeBEEP.BeeBEEP": {
+      "icon": "https://i.imgur.com/lZXq4xt.png",
+      "images": [
+        "https://www.beebeep.net/images/shots/beebeep_in_action_macosx.png",
+        "https://www.beebeep.net/images/shots/beebeep_in_action_windows.png",
+        "https://www.beebeep.net/images/shots/beebeep_in_action_darkstyle.png"
+      ]
+    },
+    "Beeftext.Beeftext": {
+      "icon": "https://beeftext.org/images/BeeftextLogo75.png",
+      "images": [
+        "https://beeftext.org/images/Demo01.png",
+        "https://beeftext.org/images/Demo02.gif"
+      ]
+    },
+    "beekeeper-studio.beekeeper-studio": {
+      "icon": "https://www.beekeeperstudio.io/assets/img/logos/bk-logo-yellow-icon-3761c77d1abf26d329e20e3b5cf05cabfa00fb9225054be62707b0693991d380.svg",
+      "images": [
+        "https://www.beekeeperstudio.io/assets/img/blog/33/solarized-725bccb89ac412416ad89bad5424238aa85e57e0562f97ab430535021b94ccad.png",
+        "https://www.beekeeperstudio.io/assets/img/features/magics-6c2eb6f3466201c7ecb9a43e85caae7ce5a202859b88b7a056010899bbd3f64e.png"
+      ]
+    },
+    "NovaTechnology.Beeper": {
+      "icon": "https://i.imgur.com/W3Gzim2.png",
+      "images": [
+        "https://uploads-ssl.webflow.com/5ffc199ed786423eb2569667/62aae525e33aff74cfe5bc8d_Hero%20phone%20mockup%20v4.png",
+        "https://uploads-ssl.webflow.com/5ffc199ed786423eb2569667/62b0b58dc27bc0487c42ddc0_NewApp%20copy-p-1600.png",
+        "https://techcrunch.com/wp-content/uploads/2021/01/beeper-diagram.png",
+        "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/01/23/952209-beeper-app.jpg"
+      ]
+    },
+    "muffinista.before-dawn": {
+      "icon": "",
+      "images": [
+        "https://i.imgur.com/BQUQKhm.png",
+        "https://i.imgur.com/mx0cEOA.png",
+        "https://i.imgur.com/VpxS469.png",
+        "https://i.imgur.com/yt08sim.png"
+      ]
+    },
+    "CHMS.Behindyou": {
+      "icon": "https://i.imgur.com/mp3zS0y.png",
+      "images": [
+        "https://i.imgur.com/2dHTqRA.png",
+        "https://i.imgur.com/yMumpYM.png"
+      ]
+    },
+    "Belarc.Advisor": {
+      "icon": "https://i.imgur.com/XA4m48l.png",
+      "images": [
+        "https://www.belarc.com/assets/images/mockups/belarc-mockup-4.png"
+      ]
+    },
+    "BelgianGovernment.Belgium-eIDmiddleware": {
+      "icon": "https://eid.belgium.be/themes/custom/eid/logo.svg",
+      "images": [
+        "https://eid.belgium.be/sites/default/files/images/steps/1.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/2.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/3.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/2.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/4.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/5.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/6.png"
+      ]
+    },
+    "BelgianGovernment.eIDViewer": {
+      "icon": "https://eid.belgium.be/themes/custom/eid/logo.svg",
+      "images": [
+        "https://eid.belgium.be/sites/default/files/images/steps/1.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/2.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/3.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/2.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/4.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/5.png",
+        "https://eid.belgium.be/sites/default/files/images/steps/6.png"
+      ]
+    },
+    "JenuelOrasGanawed.BelieversSword": {
+      "icon": "https://raw.githubusercontent.com/Bible-Projects/believers-sword-app/main/src/assets/logo.svg",
+      "images": [
+        "https://i.imgur.com/nQJS9D8.png",
+        "https://i.imgur.com/cjj3qRS.png"
+      ]
+    },
+    "the-sz.Bennett": {
+      "icon": "https://the-sz.com/products/bennett/bennett_icon.png",
+      "images": [
+        "https://the-sz.com/products/bennett/adapter_small.jpg",
+        "https://the-sz.com/products/bennett/devices_small.jpg",
+        "https://the-sz.com/products/bennett/sdp_small.png"
+      ]
+    },
+    "3ll3d00d.beqdesigner": {
+      "icon": "https://beqdesigner.readthedocs.io/en/latest/img/icon.png",
+      "images": [
+        "https://beqdesigner.readthedocs.io/en/latest/img/main_window.png",
+        "https://beqdesigner.readthedocs.io/en/latest/img/signal_table_no_data.png",
+        "https://beqdesigner.readthedocs.io/en/latest/img/signal_table_with_data.png",
+        "https://beqdesigner.readthedocs.io/en/latest/img/add_filter.png",
+        "https://beqdesigner.readthedocs.io/en/latest/img/waveform_view.png"
+      ]
+    },
+    "BespokeSynth.BespokeSynth": {
+      "icon": "https://www.bespokesynth.com/img/bespoke_footer.png",
+      "images": [
+        "https://github.com/BespokeSynth/BespokeSynth/raw/main/screenshot-1.png",
+        "https://github.com/BespokeSynth/BespokeSynth/raw/main/bespoke_quick_reference.png"
+      ]
+    },
+    "IPIP.BestTrace": {
+      "icon": "https://i.imgur.com/MbnmJ6Q.png",
+      "images": [
+        "https://i.imgur.com/DcNrXcp.png",
+        "https://s.wker.com/uploads/2019/07/besttrace-dreamhost.png"
+      ]
+    },
+    "Betaflight.Betaflight-Configurator": {
+      "icon": "https://i.imgur.com/vf9shH2.png",
+      "images": [
+        "https://i.imgur.com/GIwKUze.jpg",
+        "https://i.imgur.com/AYfT26Q.jpg",
+        "https://i.imgur.com/Qy8VfrK.jpg",
+        "https://i.imgur.com/7zv1ZXR.jpg"
+      ]
+    },
+    "Bethesda.Launcher": {
+      "icon": "https://1000logos.net/wp-content/uploads/2020/09/Bethesda-emblem.png",
+      "images": [
+        "https://www.videogameschronicle.com/files/2022/02/bethesda-launcher-a.jpg",
+        "https://i.imgur.com/B60NevR.png",
+        "https://i.imgur.com/ZMYg7yg.jpg",
+        "https://i.imgur.com/3N7H1f0.jpg"
+      ]
+    },
+    "BetterCrewLink.BetterCrewLink": {
+      "icon": "https://raw.githubusercontent.com/OhMyGuus/BetterCrewLink/nightly/src/renderer/logos/sizes/256-BCL-Logo-shadow.png",
+      "images": [
+        "https://i.imgur.com/eRTEoPn.jpg"
+      ]
+    },
+    "ScooterSoftware.BeyondCompare4": {
+      "icon": "https://www.scootersoftware.com/images/head_medallion.png",
+      "images": [
+        "https://i.imgur.com/2wuZGtI.png",
+        "https://i.imgur.com/oX4VPcv.png",
+        "https://i.imgur.com/ec3zw9V.png"
+      ]
+    },
+    "Microsoft.Bicep": {
+      "icon": "https://i.imgur.com/1X11EJI.png",
+      "images": [
+        "https://i.imgur.com/rQf4TWT.jpg",
+        "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/media/quickstart-create-bicep-use-visual-studio-code/add-snippet.png",
+        "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/media/quickstart-create-bicep-use-visual-studio-code/add-param.png",
+        "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/media/quickstart-create-bicep-use-visual-studio-code/add-decorators.png",
+        "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/media/quickstart-create-bicep-use-visual-studio-code/select-resource-type.png"
+      ]
+    },
+    "BiglySoftware.BiglyBT": {
+      "icon": "https://static.biglybt.com/img/BiglyBT.png",
+      "images": [
+        "https://static.biglybt.com/img/ss/MainWindow.png",
+        "https://static.biglybt.com/img/ss/OpenTorrents.png",
+        "https://static.biglybt.com/img/ss/Search.png",
+        "https://static.biglybt.com/img/ss/BiglyBTDesktop.png",
+        "https://static.biglybt.com/img/ss/BiglyBTFileTree.png",
+        "https://static.biglybt.com/img/ss/BiglyBTCountryStats.png",
+        "https://static.biglybt.com/img/ss/I2P_Peers.png"
+      ]
+    },
+    "wangyu.BilibiliVideoDownload": {
+      "icon": "https://raw.githubusercontent.com/blogwy/BilibiliVideoDownload/master/build/icons/256x256.png",
+      "images": [
+        "https://github.com/blogwy/BilibiliVideoDownload/raw/master/screenshots/1.png",
+        "https://github.com/blogwy/BilibiliVideoDownload/raw/master/screenshots/2.png",
+        "https://github.com/blogwy/BilibiliVideoDownload/raw/master/screenshots/3.png",
+        "https://github.com/blogwy/BilibiliVideoDownload/raw/master/screenshots/4.png",
+        "https://github.com/blogwy/BilibiliVideoDownload/raw/master/screenshots/5.png"
+      ]
+    },
+    "ForgQi.Biliup": {
+      "icon": "https://i.imgur.com/CpsHOKk.png",
+      "images": [
+        "https://github.com/ForgQi/biliup-app/raw/master/.github/resource/login.png",
+        "https://github.com/ForgQi/biliup-app/raw/master/.github/resource/main.png"
+      ]
+    },
+    "Vector000.bilive_electron": {
+      "icon": "",
+      "images": []
+    },
+    "Billfish.Billfish": {
+      "icon": "https://www.billfish.cn/wp-content/themes/wordpress-theme-billfish/assets/images/common/logo.png",
+      "images": [
+        "https://i.imgur.com/djnzeTh.png",
+        "https://i.imgur.com/hgVHGSs.png",
+        "https://i.imgur.com/1eFGwOF.png",
+        "https://i.imgur.com/5gzztCH.png"
+      ]
+    },
+    "BinanceTech.Binance": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png",
+      "images": [
+        "https://public.bnbstatic.com/image/cms/article/body/202107/a005f07e27b4d570142c47f4486f2bae.png",
+        "https://public.bnbstatic.com/image/cms/blog/20220727/454d9a2b-3f40-44bf-ad0f-5dbcd9f9d64e.png",
+        "https://public.bnbstatic.com/image/cms/blog/20190708/ca298af9-7ecf-460f-bf40-7e5168c0be87.jpeg",
+        "https://public.bnbstatic.com/image/cms/article/body/202107/42a5cc613e8659c721723c5282825c08.png"
+      ]
+    },
+    "Microsoft.BingWallpaper": {
+      "icon": "https://i.imgur.com/XFfIpE1.png",
+      "images": [
+        "https://i.imgur.com/996AdDn.jpg",
+        "https://i.imgur.com/vxkSISv.png",
+        "https://i.imgur.com/ttwGTZz.jpg"
+      ]
+    },
+    "BinaryMark.BiorhythmsCalculator": {
+      "icon": "https://i.imgur.com/LMuw9oU.png",
+      "images": [
+        "https://www.binarymark.com/assets/biorhythms-calculator/v3/multiple.png",
+        "https://www.binarymark.com/assets/biorhythms-calculator/v3/cycles.png",
+        "https://www.binarymark.com/assets/biorhythms-calculator/v3/profiles.png",
+        "https://www.binarymark.com/assets/biorhythms-calculator/v3/tabs.png",
+        "https://www.binarymark.com/assets/biorhythms-calculator/v3/compatibility.png",
+        "https://www.binarymark.com/assets/biorhythms-calculator/v3/multiple.png"
+      ]
+    },
+    "fredserva.birdskitchen": {
+      "icon": "https://tenbirds.online/birdskitchen/img/logos/logowhite.svg",
+      "images": [
+        "https://github.com/fredserva/birdskitchen/raw/master/screenshots/01.png",
+        "https://github.com/fredserva/birdskitchen/raw/master/screenshots/02.png",
+        "https://github.com/fredserva/birdskitchen/raw/master/screenshots/03.png",
+        "https://github.com/fredserva/birdskitchen/raw/master/screenshots/04.png",
+        "https://github.com/fredserva/birdskitchen/raw/master/screenshots/05.png",
+        "https://github.com/fredserva/birdskitchen/raw/master/screenshots/06.png",
+        "https://github.com/fredserva/birdskitchen/raw/master/screenshots/07.png"
+      ]
+    },
+    "Biscuit.Biscuit": {
+      "icon": "",
+      "images": []
+    },
+    "Bisq.Bisq": {
+      "icon": "https://i.imgur.com/9BQ7Q9C.png",
+      "images": [
+        "https://d33wubrfki0l68.cloudfront.net/9979c31c84875ac0d4b9a679abb98d49927ded24/c29a2/images/screens/bisq_hero_light.png",
+        "https://d33wubrfki0l68.cloudfront.net/c9c9f18100f0acdb8cff4e35db7381495f0bf84d/e6c0b/images/screens/step1_light.png"
+      ]
+    },
+    "BitGuardian.BitDriverUpdater": {
+      "icon": "https://i.imgur.com/9tJxuhz.png",
+      "images": [
+        "https://i.imgur.com/v8yTyxt.png",
+        "https://botcrawl.com/wp-content/uploads/2020/07/Bit-Driver-Updater.png",
+        "https://content.invisioncic.com/Mmalware/imageproxy/warning1.png.eb7cefa17dca2819867f796494e2c682.png",
+        "https://content.invisioncic.com/Mmalware/imageproxy/website.png.9a5d2a4110acfb1598df056e634a5c9f.png"
+      ]
+    },
+    "ShiftCryptoAG.BitBoxApp": {
+      "icon": "https://i.imgur.com/885bmhu.png",
+      "images": [
+        "https://shiftcrypto.ch/blog/content/images/size/w2000/2020/07/BitBoxApp-Android-Header.png",
+        "https://shiftcrypto.ch/blog/content/images/2020/11/image-4.png",
+        "https://shiftcrypto.ch/blog/content/images/2020/11/image-3.png",
+        "https://shiftcrypto.ch/blog/content/images/2020/11/image-2.png",
+        "https://shiftcrypto.ch/blog/content/images/2020/11/image-5.png"
+      ]
+    },
+    "BitcoinCoreProject.BitcoinCore": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png",
+      "images": [
+        "https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_752,h_536/https://dashboard.snapcraft.io/site_media/appmedia/2019/05/A1TZsGg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Bitcoin-core-v0.10.0.png/800px-Bitcoin-core-v0.10.0.png",
+        "https://static.macupdate.com/screenshots/318801/m/bitcoin-core-screenshot.png",
+        "https://bitcoinmagazine.com/.image/t_share/MTg5MDQyMzQ3MTkzOTM1Njg5/frmtl1awyaurhsh.png"
+      ]
+    },
+    "CometNetwork.BitComet": {
+      "icon": "https://www.bitcomet.com/images/logo_64x64.png",
+      "images": [
+        "https://www.bitcomet.com/images/en_main.png",
+        "https://static.filehorse.com/screenshots/file-transfer-and-networking/bitcomet-screenshot-01.png",
+        "https://img.creativemark.co.uk/uploads/images/604/10604/largeImg.png",
+        "https://www.softlay.com/wp-content/uploads/2015/08/bitcomet-Interface.jpg"
+      ]
+    },
+    "Bitdefender.Bitdefender": {
+      "icon": "https://i.imgur.com/zvUgbEL.png",
+      "images": [
+        "https://www.bitdefender.com/content/dam/bitdefender/consumers/solutions/images/AVFree-screenshot-EN.png",
+        "https://www.bitdefender.com/media/uploads/2019/07/disable-all-modules-bitdefender-privacy.png",
+        "https://www.bitdefender.fr/media/uploads/2017/06/bitdefender-firewall.png"
+      ]
+    },
+    "Bitnami.Joomla": {
+      "icon": "https://dyltqmyl993wv.cloudfront.net/assets/stacks/joomla/img/joomla-stack-220x234.png",
+      "images": [
+        "https://3.bp.blogspot.com/-usSxZrJ8g98/UH7DELMytPI/AAAAAAAAAQA/pvwk9qBbzjQ/s1600/joomla3-controlpanel.png",
+        "https://docs.joomla.org/images/f/f3/JoomlaphpMyAdmin.png",
+        "https://linux-cdn.softpedia.com/screenshots/BitNami-Joomla-Stack_1.png"
+      ]
+    },
+    "Bitnami.phpBB": {
+      "icon": "https://dyltqmyl993wv.cloudfront.net/assets/stacks/joomla/img/joomla-stack-220x234.png",
+      "images": [
+        "https://static.macupdate.com/screenshots/147263/m/bitnami-phpbb-stack-screenshot.png?v=1620835810",
+        "https://docs.bitnami.com/images/img/apps/phpbb/phpbb-change-language.png",
+        "https://docs.bitnami.com/images/img/apps/phpbb/install-style.png",
+        "https://docs.bitnami.com/images/img/apps/phpbb/activate-style.png"
+      ]
+    },
+    "Bitnami.PrestaShop": {
+      "icon": "https://dyltqmyl993wv.cloudfront.net/assets/stacks/joomla/img/joomla-stack-220x234.png",
+      "images": [
+        "https://mac-cdn.softpedia.com/screenshots/BitNami-PrestaShop-Stack_1.jpg"
+      ]
+    },
+    "Bitnami.ReportServerCommunity": {
+      "icon": "https://dyltqmyl993wv.cloudfront.net/assets/stacks/joomla/img/joomla-stack-220x234.png",
+      "images": []
+    },
+    "Bitnami.WAMP": {
+      "icon": "https://dyltqmyl993wv.cloudfront.net/assets/stacks/wampstack/img/wampstack-stack-220x234.png",
+      "images": []
+    },
+    "Bitnami.WordPress": {
+      "icon": "https://dyltqmyl993wv.cloudfront.net/assets/stacks/joomla/img/joomla-stack-220x234.png",
+      "images": [
+        "https://4.bp.blogspot.com/-oUCytTFnO_M/UqspZ-gIlaI/AAAAAAAAA9o/2xpwKeg9z0k/s1600/wordpress-3.8.png"
+      ]
+    },
+    "BitRecover.WindowsLiveMailConverter": {
+      "icon": "https://www.drupal.org/files/bitlogo.png",
+      "images": [
+        "https://www.bitrecover.com/imgs/windows-live-mail-converter/windows-live-mail-converter.jpg",
+        "https://www.bitrecover.com/imgs/windows-live-mail-converter/choose-email-folders.jpg",
+        "https://www.bitrecover.com/imgs/windows-live-mail-converter/select-a-saving-format.jpg",
+        "https://www.bitrecover.com/imgs/windows-live-mail-converter/file-naming-option.jpg",
+        "https://www.bitrecover.com/imgs/windows-live-mail-converter/migrate-emails-from-windows-mail.jpg",
+        "https://www.bitrecover.com/imgs/windows-live-mail-converter/transferring-windows-live-mail-emails.jpg",
+        "https://www.bitrecover.com/imgs/windows-live-mail-converter/windows-mail-migration.jpg"
+      ]
+    },
+    "Microsoft.bitsmanager": {
+      "icon": "",
+      "images": [
+        "https://github.com/microsoft/BITS-Manager/raw/master/Screenshots/BITSManagerOverview-Annotated.png"
+      ]
+    },
+    "bitvise.SSHClient": {
+      "icon": "https://i.imgur.com/HLjeBcL.png",
+      "images": [
+        "https://bvmedia.s3.amazonaws.com/gs-pkbv-clientkeymanager.png",
+        "https://bvmedia.s3.amazonaws.com/gs-clientinst-instdlg.png",
+        "https://bvmedia.s3.amazonaws.com/gs-connect-saveprofile.png"
+      ]
+    },
+    "Bitwarden.Bitwarden": {
+      "icon": "https://www.svgrepo.com/show/331319/bitwarden-v2.svg",
+      "images": [
+        "https://i.imgur.com/czaUp0G.jpg",
+        "https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/web-vault-macbook.png",
+        "https://images.hindustantimes.com/tech/img/2021/03/15/1600x900/800px-Bitwarden_Desktop_MacOS_1611682389390_1611682421011_1615832274184.png",
+        "https://itsfoss.com/wp-content/uploads/2020/04/bitwarden-dark-mode.jpg"
+      ]
+    },
+    "bitwig.bitwig": {
+      "icon": "https://assets.bitwig.net/static/web/img/BW_Logo_Header.svg",
+      "images": [
+        "https://assets.bitwig.net/media/image/bitwig-studio-bws4-4_banner/Bitwig-Studio-BWS4-4_Banner-LG-SD.jpg",
+        "https://assets.bitwig.net/media/image/bitwig-home_2111_bws-4_lg/Bitwig-Home_2111_BWS-4_LG-SD.png",
+        "https://assets.bitwig.net/media/image/bitwig-studio-bws3_modulators_2/Bitwig-Studio-BWS3_Modulators_2.png",
+        "https://assets.bitwig.net/media/image/bitwig_bws3-3_hw-integration/Bitwig_BWS3-3_HW-Integration-SD.png",
+        "https://assets.bitwig.net/media/image/bitwig-bws3-2_enter-the-grid/Bitwig-BWS3-2_Enter-the-Grid.png",
+        "https://assets.bitwig.net/media/image/bitwig-bws3-2_sampler-main/Bitwig-BWS3-2_Sampler-Main.png"
+      ]
+    },
+    "BedaKosata.BKChem": {
+      "icon": "",
+      "images": [
+        "https://bkchem.zirael.org/img/bkchem_macos_10_2-small.png",
+        "https://bkchem.zirael.org/img/newsnap1.png",
+        "https://bkchem.zirael.org/img/newsnap2-batik.png",
+        "https://bkchem.zirael.org/img/newsnap3-pdf.png",
+        "https://bkchem.zirael.org/img/newsnap4-test.png"
+      ]
+    },
+    "BleachBit.BleachBit": {
+      "icon": "https://www.bleachbit.org/sites/default/files/zen_classic_logo_0.png",
+      "images": [
+        "https://i.imgur.com/cBLfL5a.png",
+        "https://i.imgur.com/g2gE4gg.png",
+        "https://i.imgur.com/fc3h311.png",
+        "https://lh3.googleusercontent.com/-ZHs6M_r9odI/VnbrV7sK1cI/AAAAAAAAD6A/WBdTf4DUVbs/s400-Ic42/BleachBit%2525201.9.3%252520on%252520Windows%25252010%252520showing%252520Firefox%252520preview.png",
+        "https://lh3.googleusercontent.com/-62ki9cRDM1w/VnbrV4f0jxI/AAAAAAAAD6E/vQN10UZAkww/s800-Ic42/BleachBit%2525201.9.3%252520on%252520Windows%25252010%252520showing%252520preferences.png"
+      ]
+    },
+    "BlenderFoundation.Blender": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/2503px-Blender_logo_no_text.svg.png",
+      "images": [
+        "https://www.blender.org/wp-content/uploads/2019/07/blender_render-1280x720.jpg",
+        "https://sempreupdate.com.br/wp-content/uploads/2020/09/Blender-2.90-Splash-Fox.jpg",
+        "https://i.all3dp.com/wp-content/uploads/2021/10/13132953/free-blender-models-lead-save.jpg",
+        "https://www.blender.org/wp-content/uploads/2019/07/animation01.jpg"
+      ]
+    },
+    " awehook.BlinkMind": {
+      "icon": "",
+      "images": [
+        "https://github.com/awehook/images/raw/master/blink-mind-desktop/blink-mind-mindmap-light.png",
+        "https://github.com/awehook/images/raw/master/blink-mind-desktop/blink-mind-mindmap.png",
+        "https://github.com/awehook/images/raw/master/blink-mind-desktop/blink-mind-mindmap-pink.png",
+        "https://github.com/awehook/images/raw/master/blink-mind-desktop/gn-outliner.png",
+        "https://github.com/awehook/images/raw/master/blink-mind-desktop/rich-text-editor.png"
+      ]
+    },
+    "Blitz.Blitz": {
+      "icon": "https://theme.zdassets.com/theme_assets/9440638/6e97042da8e867b53d202cee5d0ce8f01a073f26.png",
+      "images": [
+        "https://blitz-cdn.blitz.gg/blitz/ui/img/landing/homepage-aboutgame-background-1.png",
+        "https://blitz-cdn.blitz.gg/blitz/lol/Pro_Builds.png",
+        "https://pbs.twimg.com/media/D_oi-7XX4AAdPh-.jpg",
+        "https://pbs.twimg.com/media/EZ2gSF1UwAA3AKa.jpg"
+      ]
+    },
+    "Airsquared.Blobsaver": {
+      "icon": "",
+      "images": [
+        "https://github.com/airsquared/blobsaver/raw/master/.github/screenshots/screenshot-macos.png"
+      ]
+    },
+    "JannisX11.Blockbench": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Blockbench_icon.png/768px-Blockbench_icon.png",
+      "images": [
+        "https://i.imgur.com/sXBONz4.png",
+        "https://blockbench-net.netlify.app/logo_banner.png",
+        "https://pbs.twimg.com/media/EO_NHwBX4AIrbqm.jpg",
+        "https://i.ytimg.com/vi/vq-m_ZjdeUU/maxresdefault.jpg"
+      ]
+    },
+    "Blocknetproject.Blocknet": {
+      "icon": "https://cryptologos.cc/logos/blocknet-block-logo.png",
+      "images": [
+        "https://i.imgur.com/1rSg9Wc.png",
+        "https://blocknet.org/images/twitter-card.png"
+      ]
+    },
+    "uw-labs.BloomRPC": {
+      "icon": "https://raw.githubusercontent.com/bloomrpc/bloomrpc/master/resources/logo.svg",
+      "images": [
+        "https://github.com/bloomrpc/bloomrpc/raw/master/resources/editor-preview.gif"
+      ]
+    },
+    "BlueMicrophones.BlueSherpa": {
+      "icon": "https://s3.amazonaws.com/cd.bluemic.com/img/layout/logo-inverted.svg",
+      "images": [
+        "https://s3.amazonaws.com/cd.bluemic.com/img/sherpa/screenshot-desktop@2x.jpg",
+        "https://www.diyvideostudio.com/wp-content/uploads/2021/02/Blue-Sherpa-App-Yeti-Controls-1.jpg",
+        "https://www.thebroadcastbridge.com/cache/uploads/content_images/Blue_Sherpa_789_783_70_s.jpg",
+        "http://www.co-optimus.com/images/upload/image/blue-software.png"
+      ]
+    },
+    "BlueBubbles.BlueBubbles": {
+      "icon": "https://i.imgur.com/t9yoyg0.png",
+      "images": [
+        "https://i.imgur.com/x8u7mat.png"
+      ]
+    },
+    "bluecfd.bluecfd": {
+      "icon": "http://bluecfd.github.io/Core/public/blueCAPE_logo_blue_background.png",
+      "images": [
+        "https://i.ytimg.com/vi/1Ti0yU1JdTQ/maxresdefault.jpg",
+        "https://user-images.githubusercontent.com/20957198/52140566-fcd5b000-2607-11e9-879f-98ca76f42dc5.png",
+        "https://i.ytimg.com/vi/nl7er2t-TnU/maxresdefault.jpg"
+      ]
+    },
+    "Bluefish.Bluefish": {
+      "icon": "https://bluefish.openoffice.nl/images/logo.jpg",
+      "images": [
+        "https://bluefish.openoffice.nl/screenshots/bluefish-2.2.6_thumbnail.jpeg",
+        "https://bluefish.openoffice.nl/screenshots/screenshot-visual-impaired_thumbnail.png",
+        "https://bluefish.openoffice.nl/screenshots/html-js-css-tooltip-matching-brackets-charmap_thumbnail.png",
+        "https://bluefish.openoffice.nl/screenshots/c-block-folding-autocomp-spellcheck-bookmarks_thumbnail.png",
+        "https://bluefish.openoffice.nl/screenshots/bluefish_win32_thumbnail.png"
+      ]
+    },
+    "DisruptiveInnovationsSAS.BlueGriffon": {
+      "icon": "http://bluegriffon.org/BG_files/bluegriffon.png",
+      "images": [
+        "http://bluegriffon.org/BG_files/screenshot_1.png",
+        "http://bluegriffon.org/BG_files/screenshot_RD.png",
+        "http://bluegriffon.org/BG_files/screenshot_main.png",
+        "http://bluegriffon.org/BG_files/metadata3.png",
+        "http://bluegriffon.org/BG_files/metadata2.png"
+      ]
+    },
+    "BlueJTeam.BlueJ": {
+      "icon": "https://www.bluej.org/bluej-icon-256-2x.png",
+      "images": [
+        "https://www.bluej.org/bluej-sshot.png",
+        "https://www.bluej.org/bluej-editor.png",
+        "https://www.bluej.org/scope-highlighting.png",
+        "https://www.bluej.org/object-inspection.png",
+        "https://www.bluej.org/method-invocation.png"
+      ]
+    },
+    "BlueJeans.BlueJeans": {
+      "icon": "https://i.pinimg.com/originals/39/ef/fb/39effbb52dc262cf86282a623f8077b0.png",
+      "images": [
+        "https://i.imgur.com/Xau2Oi0.png",
+        "https://i.imgur.com/fh1c37M.jpg",
+        "https://i.imgur.com/urvMslI.jpg",
+        "https://www.dekom.com/fileadmin/user_upload/manufacturers/bluejeans/bluejeans_meetings/bluejeans_meetings_speaker_gallary_view.jpg"
+      ]
+    },
+    "NirSoft.BlueScreenView": {
+      "icon": "https://www.nirsoft.net/utils/bluescreenview_icon.gif",
+      "images": [
+        "https://www.nirsoft.net/utils/bluescreenview.gif",
+        "https://www.nirsoft.net/utils/bluescreenview2.gif"
+      ]
+    },
+    "BlueStack.BlueStacks": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/5/55/BlueStacks_Logo2.png",
+      "images": [
+        "https://apkmody.io/wp-content/uploads/2018/10/BlueStacks-4-cover.jpg",
+        "https://cdn-www.bluestacks.com/bs-images/BlueStacks-5_Detailed-Overview_EN_4.jpg",
+        "https://mightygadget.co.uk/wp-content/uploads/2021/05/HD-Player_tiuqc8pwRB-1024x576.jpg",
+        "https://i.imgur.com/SvmLPKs.png"
+      ]
+    },
+    "Bluesound.BluOSController": {
+      "icon": "https://www.bluesound.com/app/themes/bluesound/img/logosm.png",
+      "images": [
+        "https://content-bluesound-com.s3.amazonaws.com/uploads/2015/08/App-screens-webMusicpage-3-0-1.png",
+        "https://i.imgur.com/6nE7m6U.png",
+        "https://i.imgur.com/KhzUUTE.png"
+      ]
+    },
+    "Bosyun.BoardMix": {
+      "icon": "https://i.imgur.com/wjwCTJY.png",
+      "images": [
+        "https://i.imgur.com/szhK78W.png",
+        "https://i.imgur.com/pzPsDVb.png",
+        "https://i.imgur.com/maPxdmx.png",
+        "https://i.imgur.com/OI0AAmv.png"
+      ]
+    },
+    "HamsterRepublic.BobTheHamsterVGA": {
+      "icon": "https://hamsterrepublic.com/img/icon/bobhead.ico",
+      "images": [
+        "https://i.imgur.com/U2CTDKI.png"
+      ]
+    },
+    "UCBerkeley.BOINC": {
+      "icon": "https://i.imgur.com/CcfDidx.png",
+      "images": [
+        "https://boinc.berkeley.edu/images/mgrwork.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/BOINCconproyectos.png/294px-BOINCconproyectos.png"
+      ]
+    },
+    "eFMer.BoincTasks": {
+      "icon": "https://i.imgur.com/1vYF9Ue.png",
+      "images": [
+        "https://efmer.com/b/img/boinc/tthrottle/main/programs_connected_680.png",
+        "https://efmer.com/b/img/boinc/bt/bt_full.png"
+      ]
+    },
+    "Bome.SendSX": {
+      "icon": "",
+      "images": [
+        "https://www.bome.com/bome/images/products_sendsx_screenshot.png",
+        "https://img.informer.com/pe/bome-sendsx-v1.4-main-interface.png",
+        "https://img.informer.com/screenshots/5629/5629038_1.jpg"
+      ]
+    },
+    "boostio.boostnote": {
+      "icon": "https://i.imgur.com/xXy8aLT.png",
+      "images": [
+        "https://uploads-ssl.webflow.com/616940a0ddfe0a14894fe86a/62189a338cb89f08e3880984_markdowneditor-p-500.png",
+        "https://uploads-ssl.webflow.com/616940a0ddfe0a14894fe86a/620bd3db4334642a1a84fc5d_pb-p-500.png",
+        "https://uploads-ssl.webflow.com/616940a0ddfe0a14894fe86a/620c572da60d8c3bbdd7aa37_kb-p-500.png"
+      ]
+    },
+    "Codeusa.BorderlessGaming": {
+      "icon": "https://i.imgur.com/7wGPT8r.png",
+      "images": [
+        "https://i.imgur.com/Wh3EQCv.jpg",
+        "https://i.imgur.com/LDOVaw6.jpg",
+        "https://i.imgur.com/DsvPb6b.jpg"
+      ]
+    },
+    "Microsoft.BotFrameworkComposer": {
+      "icon": "https://bot-framework.azureedge.net/static/323329-2bffb14b43/intercom-webui/v1.6.2/assets/landing-page/images/Composer_Icon.png",
+      "images": [
+        "https://github.com/microsoft/BotFramework-Composer/raw/main/docs/Assets/Screenshot-ComposerV2-overview.pnghttps://github.com/microsoft/BotFramework-Composer/raw/main/docs/Assets/Screenshot-ComposerV2-overview.png",
+        "https://bot-framework.azureedge.net/static/323329-2bffb14b43/intercom-webui/v1.6.2/assets/landing-page/images/BotFrameworkDiagram.png",
+        "https://files.codingninjas.in/article_images/bot-framework-composer-in-azure-1-1656438531.jpg"
+      ]
+    },
+    "Microsoft.BotFrameworkEmulator": {
+      "icon": "https://img.informer.com/icons_mac/png/128/417/417875.png",
+      "images": [
+        "https://user-images.githubusercontent.com/1156704/55851575-174b6e80-5b0e-11e9-8cf8-1f7b490e5193.png",
+        "https://github.com/Microsoft/BotFramework-Emulator/wiki/content/V4-Emulator.png",
+        "https://i.stack.imgur.com/TJpAP.png",
+        "https://blog.botframework.com/wp-content/uploads/sites/6/2018/05/emulator-preview.png"
+      ]
+    },
+    "Clement.bottom": {
+      "icon": "",
+      "images": [
+        "https://github.com/ClementTsang/bottom/raw/master/assets/demo.gif"
+      ]
+    },
+    "StefansTools.BowPad": {
+      "icon": "",
+      "images": [
+        "https://tools.stefankueng.com/img/bowpad/BowPadDefaultTheme-small.7a339b77.png",
+        "https://tools.stefankueng.com/img/bowpad/BowPadDarkTheme-small.ee2ee2ae.png"
+      ]
+    },
+    "Box.Box": {
+      "icon": "https://brandslogos.com/wp-content/uploads/thumbs/box-logo-vector-1.svg",
+      "images": [
+        "https://i.imgur.com/VzPQZ6D.png",
+        "https://i.imgur.com/0vMBVzo.png",
+        "https://i.imgur.com/VsxZRNJ.png",
+        "https://i.imgur.com/i5n3fz9.png",
+        "https://i.imgur.com/V0jHrXa.png"
+      ]
+    },
+    "SecombaGmbH.Boxcryptor": {
+      "icon": "https://i.imgur.com/P8wafEp.png",
+      "images": [
+        "https://i.imgur.com/ySKBdLN.png"
+      ]
+    },
+    "BoxHero.BoxHero": {
+      "icon": "https://i.imgur.com/256ZYXn.png",
+      "images": [
+        "https://github.com/bgpworks/boxhero-electron/raw/master/screenshots/item_list.png",
+        "https://github.com/bgpworks/boxhero-electron/raw/master/screenshots/item_detail.png",
+        "https://github.com/bgpworks/boxhero-electron/raw/master/screenshots/dashboard.png",
+        "https://github.com/bgpworks/boxhero-electron/raw/master/screenshots/stock_in.png",
+        "https://github.com/bgpworks/boxhero-electron/raw/master/screenshots/barcode_scan.png",
+        "https://github.com/bgpworks/boxhero-electron/raw/master/screenshots/label_design.png"
+      ]
+    },
+    "BPBible.BPBible": {
+      "icon": "https://raw.githubusercontent.com/bpbible/bpbible/master/graphics/bible-48x48.png",
+      "images": [
+        "https://github.com/bpbible/bpbible/wiki/screenshots/bpbible_book_selector_dropdown.png"
+      ]
+    },
+    "1ic.BPMN-RPAstudio": {
+      "icon": "https://www.1ic.nl/Help/drex_index_custom.png",
+      "images": [
+        "https://www.1ic.nl/Help/drex_introduction_custom.png",
+        "https://www.1ic.nl/Help/drex_shapes_custom_6.png",
+        "https://www.1ic.nl/Help/drex_loops_custom_2.png",
+        "https://www.1ic.nl/Help/drex_side_window_custom.png",
+        "https://www.1ic.nl/Help/drex_menu_tabs_screen.png"
+      ]
+    },
+    "brackets-cont.brackets": {
+      "icon": "https://i.imgur.com/FZDXHB7.png",
+      "images": [
+        "https://user-images.githubusercontent.com/5336369/167288309-eee1a944-80a3-4da7-b8b8-eeaab4ec1f6e.gif",
+        "https://user-images.githubusercontent.com/5336369/167259952-c6475770-6e3e-4b7e-bc12-1a13ddd92c7f.gif"
+      ]
+    },
+    "Adobe.Brackets": {
+      "icon": "https://brackets.io/img/brackets.svg",
+      "images": [
+        "https://brackets.io/img/hero.png",
+        "https://raw.githubusercontent.com/wiki/adobe/aem-brackets-extension/screenshots/brackets.png",
+        "https://experienceleague.adobe.com/docs/experience-manager-65/assets/chlimage_1-53a.png",
+        "https://img.creativemark.co.uk/uploads/images/817/15817/img3File.png"
+      ]
+    },
+    " Brave.Brave": {
+      "icon": "https://www.apkmirror.com/wp-content/uploads/2020/02/5e4f2895a8a93-384x384.png",
+      "images": [
+        "https://brave.com/new-brave-browser-release-available-for-general-download/images/a25he_image1.png",
+        "https://upload.wikimedia.org/wikipedia/commons/8/83/Brave_Browser_Welcome_Page.png",
+        "https://brave.com/static-assets/images/optimized/features/images/Browser-2-1.png",
+        "https://cdn.mos.cms.futurecdn.net/YABxCsV4z5ZACTaHBZPQCH.jpg",
+        "https://www.groovypost.com/wp-content/uploads/2021/03/brave-featured.jpg"
+      ]
+    },
+    "Brave.Brave.Beta": {
+      "icon": "https://www.apkmirror.com/wp-content/uploads/2020/04/5e8a7954e0941-384x384.png",
+      "images": [
+        "https://brave.com/brave-beta-release/images/beta-6.png",
+        "https://brave.com/brave-search-beta/images/brave-search-beta.png",
+        "https://brave.com/static-assets/images/brave-og.png"
+      ]
+    },
+    "Brave.Brave.Nightly": {
+      "icon": "https://i.imgur.com/SPx6hY9.png",
+      "images": [
+        "https://cdn.publish0x.com/prod/fs/images/33d00e3ccb16f1dfd490aacadc8b5983f0b3a2b43dedfba905767333f14568ad.png"
+      ]
+    },
+    "TomWatson.BreakTimer": {
+      "icon": "https://i.imgur.com/2YnCEYg.png",
+      "images": [
+        "https://breaktimer.app/static/hero-464cee575ea8eebefe080e1cb9c57eda.png",
+        "https://breaktimer.app/static/feature-configure-7576af814fafa4d1a0438cacc8f84b35.png",
+        "https://breaktimer.app/static/feature-customize-fe9d9b0f91aece4411214114dce53d09.png",
+        "https://breaktimer.app/static/feature-working-hours-21fff9e6b8561bad6bf31e90a9ee9bc3.png",
+        "https://breaktimer.app/static/feature-idle-reset-1e9b5d47b1f6676c1fd2c4510f78a4c8.png"
+      ]
+    },
+    "brimdata.brim": {
+      "icon": "https://i.imgur.com/59GTuWe.png",
+      "images": [
+        "https://i.imgur.com/uEXLNSF.png",
+        "https://i.imgur.com/sbU5yFP.png"
+      ]
+    },
+    "IvanG.BrowserTamer": {
+      "icon": "",
+      "images": [
+        "https://www.aloneguid.uk/projects/bt/one.png",
+        "https://www.aloneguid.uk/projects/bt/image-20220321112144264.png",
+        "https://windows-cdn.softpedia.com/screenshots/Browser-Tamer_1.jpg"
+      ]
+    },
+    "zumoshi.BrowserSelect": {
+      "icon": "",
+      "images": [
+        "https://raw.githubusercontent.com/zumoshi/BrowserSelect/master/screenshots/photo_2016-07-11_13-44-19.png",
+        "https://raw.githubusercontent.com/zumoshi/BrowserSelect/master/screenshots/photo_2015-10-12_16-46-14.jpg",
+        "https://raw.githubusercontent.com/zumoshi/BrowserSelect/master/screenshots/photo_2015-10-12_16-43-08.jpg"
+      ]
+    },
+    "BrutalChess.BrutalChess": {
+      "icon": "",
+      "images": [
+        "https://i.imgur.com/8Kj8ChG.jpg",
+        "https://i.imgur.com/CeiyPLc.jpg",
+        "https://i.imgur.com/AGoi54n.jpg",
+        "https://i.imgur.com/WYTPSCF.jpg",
+        "https://i.imgur.com/jD1R15m.jpg"
+      ]
+    },
+    "AntibodySoftware.BulkImageDownloader": {
+      "icon": "https://antibodysoftware-17031.kxcdn.com/images/bid_icon_445x445.png",
+      "images": [
+        "https://i.imgur.com/0znx6De.png",
+        "https://i.imgur.com/PdoGhyM.png",
+        "https://i.imgur.com/oSp1Rx1.png",
+        "https://i.imgur.com/iQ9pxvF.png"
+      ]
+    },
+    "TGRMNSoftware.BulkRenameUtility": {
+      "icon": "https://pics.computerbase.de/9/7/1/0/3-2a6d20c6c8823a70/logo-256.png",
+      "images": [
+        "https://www.bulkrenameutility.co.uk/assets/img-bru/bru_main1.png",
+        "https://www.bulkrenameutility.co.uk/assets/img-bru/bru_main2.png",
+        "https://www.bulkrenameutility.co.uk/assets/img-bru/bru_main3.png",
+        "https://www.bulkrenameutility.co.uk/assets/img-bru/bru_main4.png"
+      ]
+    },
+    "Bullzip.BullzipPDFStudio": {
+      "icon": "https://i.imgur.com/Firh20a.png",
+      "images": [
+        "https://www.bullzip.com/products/stu/images/merge-pdf.png",
+        "https://www.bullzip.com/products/stu/images/view-pdf.png"
+      ]
+    },
+    "BumpTechnologies.BumpTop": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/BumpTop_logo.svg/1200px-BumpTop_logo.svg.png",
+      "images": [
+        "https://i.pcmag.com/imagery/encyclopedia-terms/bumptop-_bumptop.fit_lim.size_1050x.gif",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/BumpTop_2.5_for_Windows_screenshot.png/600px-BumpTop_2.5_for_Windows_screenshot.png",
+        "https://i.ytimg.com/vi/9oGUJ0eZfmg/maxresdefault.jpg",
+        "https://img.informer.com/screenshots/426/426939_1.jpg"
+      ]
+    },
+    "PortSwigger.BurpSuite.Community": {
+      "icon": "https://i0.wp.com/filecr.com/wp-content/uploads/2018/12/Icon_Burp-Suite-Professional_free-download.png",
+      "images": [
+        "https://portswigger.net/cms/images/d6/49/876f-article-inspector-screenshot_(1).png"
+      ]
+    },
+    "PortSwigger.BurpSuite.Professional": {
+      "icon": "https://i0.wp.com/filecr.com/wp-content/uploads/2018/12/Icon_Burp-Suite-Professional_free-download.png",
+      "images": [
+        "https://portswigger.net/burp/pro/images/pro-overview-hero.png",
+        "https://portswigger.net/burp/pro/images/burp-suite-dashboard-screenshots.png",
+        "https://portswigger.net/burp/pro/images/burp-repeater-screenshots.png",
+        "https://portswigger.net/burp/pro/images/burp-suite-bapp-store-screenshots.png"
+      ]
+    },
+    "Fedora.CoreOS.butane": {
+      "icon": "https://i.imgur.com/Q8kCjNR.png",
+      "images": []
+    },
+    "Buttercup.Buttercup": {
+      "icon": "https://i.imgur.com/nFoZyfU.png",
+      "images": [
+        "https://buttercup.pw/static/img/desktop.png",
+        "https://buttercup.pw/static/img/mobile.png"
+      ]
+    },
+    "LinwoodCloud.Butterfly.Nightly": {
+      "icon": "https://i.imgur.com/2YVaeVe.png",
+      "images": [
+        "https://docs.butterfly.linwood.dev/assets/images/main-47e64e7283b2da83042c355d491fc5c8.png",
+        "https://docs.butterfly.linwood.dev/assets/images/area-75cb521ea16248059927ec975211ffbe.png",
+        "https://docs.butterfly.linwood.dev/assets/images/color_picker-100b17c884f184e838ff94f77519a6ff.png"
+      ]
+    },
+    "Jeskola.Buzz": {
+      "icon": "https://i.imgur.com/jkbSgOj.png",
+      "images": [
+        "https://jeskola.net/buzz/beta/files/screenshots/DarkPatternView.png",
+        "https://jeskola.net/buzz/beta/files/screenshots/DarkThemeMenu.png",
+        "https://jeskola.net/buzz/beta/files/screenshots/DarkThemeParameterWindow.png",
+        "https://jeskola.net/buzz/beta/files/screenshots/DarkThemeStuff.png",
+        "https://jeskola.net/buzz/beta/files/screenshots/live.png",
+        "https://jeskola.net/buzz/buzz_screenshot.jpg"
+      ]
+    },
+    "BYOND.BYOND": {
+      "icon": "https://i.imgur.com/JD9FxMg.png",
+      "images": [
+        "https://i.imgur.com/UFCTXYb.png",
+        "https://i.imgur.com/mlgAcmG.png"
+      ]
+    },
+    "BZFlag.BZFlag": {
+      "icon": "https://static.macupdate.com/products/10891/l/bzflag-logo.png?v=1588056251",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bzflag_on_RadeonHD4870.png/1200px-Bzflag_on_RadeonHD4870.png",
+        "https://www.bzflag.org/assets/images/home/bzteaser.jpg",
+        "https://www.bzflag.org/assets/images/home/guided-missile-poster.jpg",
+        "https://www.bzflag.org/assets/images/announcements/2020-04-24-2.4.20-release.jpg",
+        "https://linux-cdn.softpedia.com/screenshots/BZFlag_3.jpg"
+      ]
+    },
+    "Bililive.BililiveRecorder": {
+      "icon": "https://raw.githubusercontent.com/BililiveRecorder/BililiveRecorder/dev/.github/assets/logo.svg",
+      "images": [
+        "https://i.imgur.com/zHZyN4h.png"
+      ]
+    }
   },
   "scoop": {
     "1password-cli": {
