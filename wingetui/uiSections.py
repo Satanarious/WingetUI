@@ -23,12 +23,14 @@ class DiscoverSoftwareSection(QWidget):
     changeBarOrientation = Signal()
     discoverLabelDefaultWidth: int = 0
     discoverLabelIsSmall: bool = False
+    isToolbarSmall: bool = False
+    toolbarDefaultWidth: int = 0
 
     def __init__(self, parent = None):
         super().__init__(parent = parent)
         self.scoopLoaded = False
         self.wingetLoaded = False
-        self.infobox = PackageInfoPopupWindow(self)
+        self.infobox = globals.infobox
         self.setStyleSheet("margin: 0px;")
         self.packageReference: dict[str, TreeWidgetItemWithQAction] = {}
 
@@ -62,12 +64,12 @@ class DiscoverSoftwareSection(QWidget):
         self.forceCheckBox.clicked.connect(lambda v: setSettings("DisableInstantSearchOnInstall", bool(not v)))
          
         self.query = CustomLineEdit()
-        self.query.setPlaceholderText(" "+_("Search for something on Winget or Scoop"))
+        self.query.setPlaceholderText(" "+_("Search for packages on Winget and Scoop"))
         self.query.returnPressed.connect(self.filter)
         self.query.textChanged.connect(lambda: self.filter() if self.forceCheckBox.isChecked() else print())
         self.query.setFixedHeight(30)
         self.query.setStyleSheet("margin-top: 0px;")
-        self.query.setMinimumWidth(50)
+        self.query.setMinimumWidth(100)
         self.query.setMaximumWidth(250)
         self.query.setBaseSize(250, 30)
         sct = QShortcut(QKeySequence("Ctrl+F"), self)
@@ -96,6 +98,7 @@ class DiscoverSoftwareSection(QWidget):
 
         self.titleWidget = QWidget()
         self.titleWidget.setContentsMargins(0, 0, 0, 0)
+        self.titleWidget.setFixedHeight(70)
         self.titleWidget.setLayout(v)
 
         hLayout.addWidget(self.titleWidget, stretch=1)
@@ -131,12 +134,12 @@ class DiscoverSoftwareSection(QWidget):
             contextMenu.setStyleSheet("* {background: red;color: black}")
             ApplyMenuBlur(contextMenu.winId().__int__(), contextMenu)
             inf = QAction(_("Show info"))
-            inf.triggered.connect(lambda: self.openInfo(self.packageList.currentItem().text(0), self.packageList.currentItem().text(1), self.packageList.currentItem().text(3), packageItem=self.packageList.currentItem()))
+            inf.triggered.connect(lambda: (contextMenu.close(), self.openInfo(self.packageList.currentItem().text(0), self.packageList.currentItem().text(1), self.packageList.currentItem().text(3), packageItem=self.packageList.currentItem())))
             inf.setIcon(QIcon(getMedia("info")))
             ins1 = QAction(_("Install"))
             ins1.setIcon(QIcon(getMedia("newversion")))
             ins1.triggered.connect(lambda: self.fastinstall(self.packageList.currentItem().text(0), self.packageList.currentItem().text(1), self.packageList.currentItem().text(3), packageItem=self.packageList.currentItem()))
-            ins2 = QAction(_("Run as administrator"))
+            ins2 = QAction(_("Install as administrator"))
             ins2.setIcon(QIcon(getMedia("runasadmin")))
             ins2.triggered.connect(lambda: self.fastinstall(self.packageList.currentItem().text(0), self.packageList.currentItem().text(1), self.packageList.currentItem().text(3), admin=True, packageItem=self.packageList.currentItem()))
             ins3 = QAction(_("Skip hash check"))
@@ -189,7 +192,7 @@ class DiscoverSoftwareSection(QWidget):
         l.addWidget(self.packageListScrollBar)
         self.bodyWidget.setLayout(l)
 
-        self.toolbar = QToolBar(self)
+        self.toolbar = QToolBar(self.window())
         self.toolbar.setToolButtonStyle(Qt.ToolButtonTextBesideIcon)
 
         self.toolbar.addWidget(TenPxSpacer())
@@ -212,7 +215,7 @@ class DiscoverSoftwareSection(QWidget):
 
         
         tooltips = {
-            self.upgradeSelected: _("Install selected package"),
+            self.upgradeSelected: _("Install package"),
             inf: _("Show package info"),
             ins2: _("Run the installer with administrator privileges"),
             ins3: _("Skip the hash check"),
@@ -375,19 +378,7 @@ class DiscoverSoftwareSection(QWidget):
             print("🟢 Total packages: "+str(self.packageList.topLevelItemCount()))
 
     def resizeEvent(self, event: QResizeEvent):
-        if self.discoverLabelDefaultWidth == 0:
-            self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
-        if self.discoverLabelDefaultWidth > self.titleWidget.width():
-            if not self.discoverLabelIsSmall:
-                self.discoverLabelIsSmall = True
-                self.discoverLabel.setStyleSheet("font-size: 15pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()+15
-        else:
-            if self.discoverLabelIsSmall:
-                self.discoverLabelIsSmall = False
-                self.discoverLabel.setStyleSheet("font-size: 30pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
-        self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
+        self.adjustWidgetsSize()
         return super().resizeEvent(event)
 
     def addItem(self, name: str, id: str, version: str, store) -> None:
@@ -432,7 +423,6 @@ class DiscoverSoftwareSection(QWidget):
     def openInfo(self, title: str, id: str, store: str, packageItem: TreeWidgetItemWithQAction) -> None:
         self.infobox.loadProgram(title, id, useId=not("…" in id), store=store, packageItem=packageItem)
         self.infobox.show()
-        ApplyMenuBlur(self.infobox.winId(), self.infobox, avoidOverrideStyleSheet=True, shadow=False)
 
     def fastinstall(self, title: str, id: str, store: str, admin: bool = False, interactive: bool = False, skiphash: bool = False, packageItem: TreeWidgetItemWithQAction = None) -> None:
         if not "scoop" in store.lower():
@@ -475,20 +465,34 @@ class DiscoverSoftwareSection(QWidget):
         return super().destroy(destroyWindow, destroySubWindows)
 
     def showEvent(self, event: QShowEvent) -> None:
-        self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
+        self.adjustWidgetsSize()
+        return super().showEvent(event)
+
+    def adjustWidgetsSize(self) -> None:
         if self.discoverLabelDefaultWidth == 0:
             self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
         if self.discoverLabelDefaultWidth > self.titleWidget.width():
             if not self.discoverLabelIsSmall:
                 self.discoverLabelIsSmall = True
                 self.discoverLabel.setStyleSheet("font-size: 15pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()+15
         else:
             if self.discoverLabelIsSmall:
                 self.discoverLabelIsSmall = False
                 self.discoverLabel.setStyleSheet("font-size: 30pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
-        return super().showEvent(event)
+
+        self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
+        if self.toolbarDefaultWidth == 0:
+            self.toolbarDefaultWidth = self.toolbar.sizeHint().width()+2
+        if self.toolbarDefaultWidth != 0:
+            if self.toolbarDefaultWidth > self.toolbar.width():
+                if not self.isToolbarSmall:
+                    self.isToolbarSmall = True
+                    self.toolbar.setToolButtonStyle(Qt.ToolButtonIconOnly)
+            else:
+                if self.isToolbarSmall:
+                    self.isToolbarSmall = False
+                    self.toolbar.setToolButtonStyle(Qt.ToolButtonTextBesideIcon)
+        self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
 
 class UpdateSoftwareSection(QWidget):
 
@@ -503,6 +507,8 @@ class UpdateSoftwareSection(QWidget):
     availableUpdates: int = 0
     discoverLabelDefaultWidth: int = 0
     discoverLabelIsSmall: bool = False
+    isToolbarSmall: bool = False
+    toolbarDefaultWidth: int = 0
 
     def __init__(self, parent = None):
         super().__init__(parent = parent)
@@ -510,7 +516,7 @@ class UpdateSoftwareSection(QWidget):
         self.callInMain.connect(lambda f: f())
         self.scoopLoaded = False
         self.wingetLoaded = False
-        self.infobox = PackageInfoPopupWindow(self)
+        self.infobox = globals.infobox
         self.setStyleSheet("margin: 0px;")
 
         self.programbox = QWidget()
@@ -537,12 +543,12 @@ class UpdateSoftwareSection(QWidget):
         hLayout.setContentsMargins(25, 0, 25, 0)
 
         self.query = CustomLineEdit()
-        self.query.setPlaceholderText(" "+_("Search for available updates"))
+        self.query.setPlaceholderText(" "+_("Search on available updates"))
         self.query.returnPressed.connect(self.filter)
         self.query.textChanged.connect(lambda: self.filter() if self.forceCheckBox.isChecked() else print())
         self.query.setFixedHeight(30)
         self.query.setStyleSheet("margin-top: 0px;")
-        self.query.setMinimumWidth(50)
+        self.query.setMinimumWidth(100)
         self.query.setMaximumWidth(250)
         self.query.setBaseSize(250, 30)
 
@@ -582,6 +588,7 @@ class UpdateSoftwareSection(QWidget):
         self.titleWidget = QWidget()
         self.titleWidget.setContentsMargins(0, 0, 0, 0)
         self.titleWidget.setLayout(v)
+        self.titleWidget.setFixedHeight(70)
 
         hLayout.addWidget(self.titleWidget, stretch=1)
         hLayout.addWidget(self.forceCheckBox)
@@ -599,8 +606,8 @@ class UpdateSoftwareSection(QWidget):
         self.packageList.setColumnWidth(0, 50)
         self.packageList.setColumnWidth(1, 350)
         self.packageList.setColumnWidth(2, 200)
-        self.packageList.setColumnWidth(3, 125)
-        self.packageList.setColumnWidth(4, 125)
+        self.packageList.setColumnWidth(3, 175)
+        self.packageList.setColumnWidth(4, 175)
         self.packageList.setColumnWidth(5, 100)
         self.packageList.setSortingEnabled(True)
         self.packageList.setVerticalScrollBar(self.packageListScrollBar)
@@ -624,7 +631,7 @@ class UpdateSoftwareSection(QWidget):
             ins1 = QAction(_("Update"))
             ins1.setIcon(QIcon(getMedia("newversion")))
             ins1.triggered.connect(lambda: self.update(self.packageList.currentItem().text(1), self.packageList.currentItem().text(2), self.packageList.currentItem().text(5).lower(), packageItem=self.packageList.currentItem()))
-            ins2 = QAction(_("Run as administrator"))
+            ins2 = QAction(_("Update as administrator"))
             ins2.setIcon(QIcon(getMedia("runasadmin")))
             ins2.triggered.connect(lambda: self.update(self.packageList.currentItem().text(1), self.packageList.currentItem().text(2), self.packageList.currentItem().text(5).lower(), packageItem=self.packageList.currentItem(), admin=True))
             ins3 = QAction(_("Skip hash check"))
@@ -664,10 +671,10 @@ class UpdateSoftwareSection(QWidget):
         header.setSectionResizeMode(3, QHeaderView.Fixed)
         header.setSectionResizeMode(4, QHeaderView.Fixed)
         header.setSectionResizeMode(5, QHeaderView.Fixed)
-        self.packageList.setColumnWidth(0, 46)
-        self.packageList.setColumnWidth(3, 100)
-        self.packageList.setColumnWidth(4, 100)
-        self.packageList.setColumnWidth(5, 120)
+        self.packageList.setColumnWidth(0, 50)
+        self.packageList.setColumnWidth(3, 130)
+        self.packageList.setColumnWidth(4, 130)
+        self.packageList.setColumnWidth(5, 100)
 
         def toggleItemState():
             item = self.packageList.currentItem()
@@ -716,9 +723,7 @@ class UpdateSoftwareSection(QWidget):
                 if not program.isHidden():
                     self.packageList.itemWidget(program, 0).setChecked(checked)
 
-        #h2Layout = QHBoxLayout()
-        #h2Layout.setContentsMargins(27, 0, 27, 0)
-        self.toolbar = QToolBar(self)
+        self.toolbar = QToolBar(self.window())
         self.toolbar.setToolButtonStyle(Qt.ToolButtonTextBesideIcon)
 
         self.toolbar.addWidget(TenPxSpacer())
@@ -741,11 +746,11 @@ class UpdateSoftwareSection(QWidget):
 
         
         tooltips = {
-            self.upgradeSelected: _("Install selected package"),
+            self.upgradeSelected: _("Update package"),
             inf: _("Show package info"),
-            ins2: _("Run the installer with administrator privileges"),
+            ins2: _("Update with administrator privileges"),
             ins3: _("Skip the hash check"),
-            ins4: _("Interactive installation"),
+            ins4: _("Interactive update"),
         }
 
         for action in [self.upgradeSelected, inf, ins2, ins3, ins4]:
@@ -756,10 +761,10 @@ class UpdateSoftwareSection(QWidget):
 
         self.toolbar.addSeparator()
 
-        self.upgradeAllAction = QAction(QIcon(getMedia("installall")), _("Upgrade all"), self.toolbar)
+        self.upgradeAllAction = QAction(QIcon(getMedia("installall")), _("Update all"), self.toolbar)
         self.upgradeAllAction.triggered.connect(lambda: self.updateAll())
         self.toolbar.addAction(self.upgradeAllAction)
-        self.upgradeSelectedAction = QAction(QIcon(getMedia("list")), _("Upgrade selected"), self.toolbar)
+        self.upgradeSelectedAction = QAction(QIcon(getMedia("list")), _("Update selected"), self.toolbar)
         self.upgradeSelectedAction.triggered.connect(lambda: self.updateSelected())
         self.toolbar.addAction(self.upgradeSelectedAction)
 
@@ -810,13 +815,6 @@ class UpdateSoftwareSection(QWidget):
         self.toolbar.addWidget(self.showUnknownSection)
         self.toolbar.addWidget(TenPxSpacer())
         self.toolbar.addWidget(TenPxSpacer())
-
-
-        #h2Layout.addWidget(self.upgradeAllButton)
-        #h2Layout.addWidget(self.upgradeSelected)
-        #h2Layout.addWidget(self.blacklistButton)
-        #h2Layout.addStretch()
-        #h2Layout.addWidget(self.showUnknownVersions)
 
         self.countLabel = QLabel(_("Checking for updates..."))
         self.packageList.label.setText(self.countLabel.text())
@@ -959,20 +957,7 @@ class UpdateSoftwareSection(QWidget):
             print("🟢 Total packages: "+str(self.packageList.topLevelItemCount()))
 
     def resizeEvent(self, event: QResizeEvent):
-        if self.discoverLabelDefaultWidth == 0:
-            self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
-        if self.discoverLabelDefaultWidth > self.titleWidget.width():
-            if not self.discoverLabelIsSmall:
-                self.discoverLabelIsSmall = True
-                self.discoverLabel.setStyleSheet("font-size: 15pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()+15
-        else:
-            if self.discoverLabelIsSmall:
-                self.discoverLabelIsSmall = False
-                self.discoverLabel.setStyleSheet("font-size: 30pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
-        self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
-        self.toolbar.setToolButtonStyle(Qt.ToolButtonIconOnly if self.width()<1070 else Qt.ToolButtonTextBesideIcon)
+        self.adjustWidgetsSize()
         return super().resizeEvent(event)
 
     def addItem(self, name: str, id: str, version: str, newVersion: str, store) -> None:
@@ -1076,7 +1061,6 @@ class UpdateSoftwareSection(QWidget):
     def openInfo(self, title: str, id: str, store: str, packageItem: TreeWidgetItemWithQAction = None) -> None:
         self.infobox.loadProgram(title, id, useId=not("…" in id), store=store, update=True, packageItem=packageItem)
         self.infobox.show()
-        ApplyMenuBlur(self.infobox.winId(), self.infobox, avoidOverrideStyleSheet=True, shadow=False)
 
     def reloadSources(self):
         print("Reloading sources...")
@@ -1129,21 +1113,34 @@ class UpdateSoftwareSection(QWidget):
             anim.deleteLater()
         return super().destroy(destroyWindow, destroySubWindows)
 
-    def showEvent(self, event: QShowEvent) -> None:
-        self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
+    def adjustWidgetsSize(self) -> None:
         if self.discoverLabelDefaultWidth == 0:
             self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
         if self.discoverLabelDefaultWidth > self.titleWidget.width():
             if not self.discoverLabelIsSmall:
                 self.discoverLabelIsSmall = True
                 self.discoverLabel.setStyleSheet("font-size: 15pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()+15
         else:
             if self.discoverLabelIsSmall:
                 self.discoverLabelIsSmall = False
                 self.discoverLabel.setStyleSheet("font-size: 30pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
+
+        if self.toolbarDefaultWidth == 0:
+            self.toolbarDefaultWidth = self.toolbar.sizeHint().width()+10
+        if self.toolbarDefaultWidth > self.toolbar.width():
+            if not self.isToolbarSmall:
+                self.isToolbarSmall = True
+                self.toolbar.setToolButtonStyle(Qt.ToolButtonIconOnly)
+        else:
+            if self.isToolbarSmall:
+                self.isToolbarSmall = False
+                self.toolbar.setToolButtonStyle(Qt.ToolButtonTextBesideIcon)
         self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
+        self.showUnknownSection.setFixedWidth(self.showUnknownSection.sizeHint().width()+10)
+
+
+    def showEvent(self, event: QShowEvent) -> None:
+        self.adjustWidgetsSize()
         return super().showEvent(event)
 
 class UninstallSoftwareSection(QWidget):
@@ -1157,12 +1154,14 @@ class UninstallSoftwareSection(QWidget):
     changeBarOrientation = Signal()
     discoverLabelDefaultWidth: int = 0
     discoverLabelIsSmall: bool = False
+    isToolbarSmall: bool = False
+    toolbarDefaultWidth: int = 0
 
     def __init__(self, parent = None):
         super().__init__(parent = parent)
         self.scoopLoaded = False
         self.wingetLoaded = False
-        self.infobox = PackageInfoPopupWindow(self)
+        self.infobox = globals.infobox
         self.setStyleSheet("margin: 0px;")
         self.infobox.onClose.connect(self.showQuery)
         self.allPkgSelected = False
@@ -1188,16 +1187,13 @@ class UninstallSoftwareSection(QWidget):
         hLayout = QHBoxLayout()
         hLayout.setContentsMargins(25, 0, 25, 0)
 
-        #hLayoutExport = QHBoxLayout()
-        #hLayout.setContentsMargins(25, 0, 25, 0)
-
         self.query = CustomLineEdit()
         self.query.setPlaceholderText(" "+_("Search on your software"))
         self.query.returnPressed.connect(self.filter)
         self.query.textChanged.connect(lambda: self.filter() if self.forceCheckBox.isChecked() else print())
         self.query.setFixedHeight(30)
         self.query.setStyleSheet("margin-top: 0px;")
-        self.query.setMinimumWidth(50)
+        self.query.setMinimumWidth(100)
         self.query.setMaximumWidth(250)
         self.query.setBaseSize(250, 30)
 
@@ -1237,6 +1233,7 @@ class UninstallSoftwareSection(QWidget):
         v.addWidget(self.discoverLabel)
 
         self.titleWidget = QWidget()
+        self.titleWidget.setFixedHeight(70)
         self.titleWidget.setContentsMargins(0, 0, 0, 0)
         self.titleWidget.setLayout(v)
 
@@ -1245,12 +1242,6 @@ class UninstallSoftwareSection(QWidget):
         hLayout.addWidget(self.query)
         hLayout.addWidget(self.searchButton)
         hLayout.addWidget(self.reloadButton)
-
-        #hLayoutExport.addLayout(v)
-        #hLayoutExport.addWidget(self.selectAllPkgsCheckBox)
-        #hLayoutExport.addStretch()
-        #hLayoutExport.setContentsMargins(0, 0, 0, 0)
-        #hLayoutExport.addWidget(self.exportSelectionButton)
         
         self.packageListScrollBar = CustomScrollBar()
         self.packageListScrollBar.setOrientation(Qt.Vertical)
@@ -1261,9 +1252,7 @@ class UninstallSoftwareSection(QWidget):
 
         self.packageList.setColumnCount(len(self.headers))
         self.packageList.setHeaderLabels(self.headers)
-        self.packageList.setColumnWidth(0, 46)
-        #self.packageList.setColumnWidth(1, 300)
-        #self.packageList.setColumnWidth(2, 200)
+        self.packageList.setColumnWidth(0, 50)
         self.packageList.setColumnHidden(3, False)
         self.packageList.setColumnWidth(4, 120)
         self.packageList.setSortingEnabled(True)
@@ -1301,7 +1290,7 @@ class UninstallSoftwareSection(QWidget):
             ins1 = QAction(_("Uninstall"))
             ins1.setIcon(QIcon(getMedia("menu_uninstall")))
             ins1.triggered.connect(lambda: self.uninstall(self.packageList.currentItem().text(1), self.packageList.currentItem().text(2), self.packageList.currentItem().text(4), packageItem=self.packageList.currentItem()))
-            ins2 = QAction(_("Run as administrator"))
+            ins2 = QAction(_("Uninstall as administrator"))
             ins2.setIcon(QIcon(getMedia("runasadmin")))
             ins2.triggered.connect(lambda: self.uninstall(self.packageList.currentItem().text(1), self.packageList.currentItem().text(2), self.packageList.currentItem().text(4), packageItem=self.packageList.currentItem(), admin=True))
             ins3 = QAction(_("Remove permanent data"))
@@ -1310,7 +1299,7 @@ class UninstallSoftwareSection(QWidget):
             ins5 = QAction(_("Interactive uninstall"))
             ins5.setIcon(QIcon(getMedia("interactive")))
             ins5.triggered.connect(lambda: self.uninstall(self.packageList.currentItem().text(1), self.packageList.currentItem().text(2), self.packageList.currentItem().text(4), interactive=True))
-            ins4 = QAction(_("Show package info"))
+            ins4 = QAction(_("Show info"))
             ins4.setIcon(QIcon(getMedia("info")))
             ins4.triggered.connect(lambda: self.openInfo(self.packageList.currentItem().text(1), self.packageList.currentItem().text(2), self.packageList.currentItem().text(4), self.packageList.currentItem()))
             contextMenu.addAction(ins1)
@@ -1349,7 +1338,7 @@ class UninstallSoftwareSection(QWidget):
         l.addWidget(ScrollWidget(self.packageList), stretch=0)
         self.bodyWidget.setLayout(l)
 
-        self.toolbar = QToolBar(self)
+        self.toolbar = QToolBar(self.window())
         self.toolbar.setToolButtonStyle(Qt.ToolButtonTextBesideIcon)
 
         self.toolbar.addWidget(TenPxSpacer())
@@ -1358,6 +1347,25 @@ class UninstallSoftwareSection(QWidget):
         self.toolbar.addAction(self.upgradeSelected)
         self.toolbar.widgetForAction(self.upgradeSelected).setFixedSize(40, 45)
 
+        def showInfo():
+            item = self.packageList.currentItem()
+            if item.text(4).lower() == "local pc":
+                self.err = ErrorMessage(self.window())
+                errorData = {
+                        "titlebarTitle": _("Unable to load informarion"),
+                        "mainTitle": _("Unable to load informarion"),
+                        "mainText": _("We could not load detailed information about this package, because it was not installed neither from Winget nor Scoop."),
+                        "buttonTitle": _("Ok"),
+                        "errorDetails": _("Uninstallable packages with the origin listed as \"Local PC\" are not published on any package manager, so there's no information available to show about them."),
+                        "icon": QIcon(getMedia("warn")),
+                    }
+                self.err.showErrorMessage(errorData, showNotification=False)
+            else:
+                self.openInfo(item.text(1), item.text(2), item.text(5).lower(), item)
+
+        inf = QAction("", self.toolbar)# ("Show info")
+        inf.triggered.connect(showInfo)
+        inf.setIcon(QIcon(getMedia("info")))
         ins2 = QAction("", self.toolbar)# ("Run as administrator")
         ins2.setIcon(QIcon(getMedia("runasadmin")))
         ins2.triggered.connect(lambda: self.uninstall(self.packageList.currentItem().text(1), self.packageList.currentItem().text(2), self.packageList.currentItem().text(4), packageItem=self.packageList.currentItem(), admin=True))
@@ -1367,12 +1375,13 @@ class UninstallSoftwareSection(QWidget):
         
         
         tooltips = {
-            self.upgradeSelected: _("Uninstall selected package"),
+            self.upgradeSelected: _("Uninstall package"),
+            inf: _("Show package info"),
             ins2: _("Uninstall with administrator privileges"),
             ins5: _("Interactive uninstall"),
         }
 
-        for action in [self.upgradeSelected, ins2, ins5]:
+        for action in [self.upgradeSelected, inf, ins2, ins5]:
             self.toolbar.addAction(action)
             self.toolbar.widgetForAction(action).setFixedSize(40, 45)
             self.toolbar.widgetForAction(action).setToolTip(tooltips[action])
@@ -1437,7 +1446,6 @@ class UninstallSoftwareSection(QWidget):
         layout.addLayout(hl2)
         self.programbox.setLayout(l)
         self.layout.addWidget(self.programbox, stretch=1)
-        self.layout.addWidget(self.infobox, stretch=1)
         self.infobox.hide()
 
         self.addProgram.connect(self.addItem)
@@ -1525,7 +1533,7 @@ class UninstallSoftwareSection(QWidget):
     def openInfo(self, title: str, id: str, store: str, packageItem: TreeWidgetItemWithQAction) -> None:
         self.infobox.loadProgram(title, id, useId=not("…" in id), store=store, packageItem=packageItem)
         self.infobox.show()
-        ApplyMenuBlur(self.infobox.winId(), self.infobox, avoidOverrideStyleSheet=True, shadow=False)
+        #ApplyMenuBlur(self.infobox.winId(), self.infobox, avoidOverrideStyleSheet=True, shadow=False)
 
 
     def finishLoadingIfNeeded(self, store: str) -> None:
@@ -1561,37 +1569,37 @@ class UninstallSoftwareSection(QWidget):
             self.packageList.label.setText("")
             print("🟢 Total packages: "+str(self.packageList.topLevelItemCount()))
 
-    def resizeEvent(self, event: QResizeEvent):
+    def adjustWidgetsSize(self) -> None:
         if self.discoverLabelDefaultWidth == 0:
             self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
         if self.discoverLabelDefaultWidth > self.titleWidget.width():
             if not self.discoverLabelIsSmall:
                 self.discoverLabelIsSmall = True
                 self.discoverLabel.setStyleSheet("font-size: 15pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()+15
         else:
             if self.discoverLabelIsSmall:
                 self.discoverLabelIsSmall = False
                 self.discoverLabel.setStyleSheet("font-size: 30pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
+
+        if self.toolbarDefaultWidth == 0:
+            self.toolbarDefaultWidth = self.toolbar.sizeHint().width()+2
+        if self.toolbarDefaultWidth != 0:
+            if self.toolbarDefaultWidth > self.toolbar.width():
+                if not self.isToolbarSmall:
+                    self.isToolbarSmall = True
+                    self.toolbar.setToolButtonStyle(Qt.ToolButtonIconOnly)
+            else:
+                if self.isToolbarSmall:
+                    self.isToolbarSmall = False
+                    self.toolbar.setToolButtonStyle(Qt.ToolButtonTextBesideIcon)
         self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
-        self.toolbar.setToolButtonStyle(Qt.ToolButtonIconOnly if self.width()<820 else Qt.ToolButtonTextBesideIcon)
+
+    def resizeEvent(self, event: QResizeEvent):
+        self.adjustWidgetsSize()
         return super().resizeEvent(event)
         
     def showEvent(self, event: QShowEvent) -> None:
-        if self.discoverLabelDefaultWidth == 0:
-            self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
-        if self.discoverLabelDefaultWidth > self.titleWidget.width():
-            if not self.discoverLabelIsSmall:
-                self.discoverLabelIsSmall = True
-                self.discoverLabel.setStyleSheet("font-size: 15pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()+15
-        else:
-            if self.discoverLabelIsSmall:
-                self.discoverLabelIsSmall = False
-                self.discoverLabel.setStyleSheet("font-size: 30pt;font-family: \"Segoe UI Variable Display\";font-weight: bold;")
-                self.discoverLabelDefaultWidth = self.discoverLabel.sizeHint().width()
-        self.forceCheckBox.setFixedWidth(self.forceCheckBox.sizeHint().width()+10)
+        self.adjustWidgetsSize()
         return super().showEvent(event)
 
 
@@ -1602,8 +1610,14 @@ class UninstallSoftwareSection(QWidget):
                 for illegal_char in ("{", "}", "_", " "):
                     if illegal_char in id:
                         store = "Local PC"
-                if id.count(".") != 1:
-                    store = "Local PC"
+                if store.lower() == "winget":
+                    if id.count(".") != 1:
+                        store = "Local PC"
+                        if id.count(".") > 1:
+                            for letter in id:
+                                if letter in "AABCDEFGHIJKLMNOPQRSTUVWXYZ":
+                                    store = "Winget"
+                                    break
             item.setText(1, name)
             item.setText(2, id)
             item.setIcon(1, self.installIcon)

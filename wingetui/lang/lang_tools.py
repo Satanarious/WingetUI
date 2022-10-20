@@ -8,8 +8,10 @@ languageReference = {
     "zh"    : "Chinese - 中文",
     "en"    : "English - English",
     "fr"    : "French - Français",
+    "hi"    : "Hindi - हिंदी",
     "pt_BR" : "Portuguese (Brazil)",
     "pt_PT" : "Portuguese (Portugal)",
+    "tr"    : "Turkish - Türkçe"
 }
 
 
@@ -35,13 +37,15 @@ languageFlagsRemap = {
     "fa": "ir",
     "he": "il",
     "ja": "jp",
+    "hi": "in",
     "ko": "kr",
     "nb": "no",
     "nn": "no",
     "pt_BR": "br",
     "pt_PT": "pt",
     "si": "lk",
-    "zh_CN": "cn",
+    "zh": "cn",
+    #"zh_CN": "cn",
     "zh_TW": "tw",
     "vi": "vn",
     "sr": "rs",
