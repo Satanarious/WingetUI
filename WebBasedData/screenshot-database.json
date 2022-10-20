@@ -1,9 +1,9 @@
 {
   "package_count": {
-    "winget": 3819,
+    "winget": 3843,
     "scoop": 1093,
-    "total": 4912,
-    "done": 416
+    "total": 4936,
+    "done": 543
   },
   "winget": {
     "Microsoft.dotNetFramework": {
